@@ -1,0 +1,30 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets
+@using LittleFashion_Kentico13.Components.Widgets.FrontProduct
+@model _FrontProductWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<section class="front-product">
+    <div class="container-fluid p-0">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 col-12">
+                <img src="@Model.ImageUrl" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-6 col-12">
+                <div class="px-5 py-5 py-lg-0">
+
+                    <h2 class="mb-4">@Model.Heading</h2>
+
+                    <p class="lead mb-4">@Model.Description</p>
+
+                    <a href="@Model.ButtonUrl" class="custom-link">
+                        @Model.ButtonText
+                        <i class="bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

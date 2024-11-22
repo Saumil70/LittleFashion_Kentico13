@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/css/slick.css" />
+    <link rel="stylesheet" href="~/css/tooplate-little-fashion.css" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
+    <link href="~/css/styles.css" rel="stylesheet" type="text/css" />
+    <required-client-resources area="Header" />
+    @RenderSection("styles", required: false)
+</head>
+
+<body>
+@*     @await Component.InvokeAsync("Header") *@
+
+    @RenderBody()
+
+@*     @await Component.InvokeAsync("Footer") *@
+
+    <required-client-resources area="Footer" />
+    <script src="~/js/jQuery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/Headroom.js"></script>
+    <script src="~/js/jQuery.headroom.js"></script>
+    <script src="~/js/slick.min.js"></script>
+    <script src="~/js/custom.js"></script>
+    @* Razor section for additional page-specific scripts *@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

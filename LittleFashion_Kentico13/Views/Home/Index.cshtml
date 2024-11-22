@@ -1,0 +1,47 @@
+﻿@using Kentico.PageBuilder.Web.Mvc
+@using Kentico.Content.Web.Mvc
+@using LittleFashion_Kentico13
+
+@model LittleFashion_Kentico13.ViewModel.CarouselBlockViewModel
+
+@addTagHelper *, Kentico.Content.Web.Mvc
+@section styles
+{
+    @* Includes CSS necessary for page builder functionality *@
+    <page-builder-styles />
+}
+@section scripts
+{
+    @* Includes scripts necessary for page builder functionality *@
+    <page-builder-scripts />
+}
+<section class="slick-slideshow">
+
+    @foreach (var carouselItem in Model.CarouselBlock)
+    {
+        if (carouselItem != null)
+        {
+            <div class="slick-custom">
+                <img src="@carouselItem.CarouselImage" class="img-fluid" alt="">
+
+                <div class="slick-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-10">
+                                <h1 class="slick-title">@carouselItem.CarouselTitle</h1>
+
+                                <p class="lead text-white mt-lg-3 mb-lg-5">@carouselItem.CarouselDescription</p>
+
+                                <a href="@carouselItem.ButtonLink" class="btn custom-btn">@carouselItem.ButtonText</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        }
+    }
+</section>
+
+<editable-area area-identifier="editableArea" />
+
+

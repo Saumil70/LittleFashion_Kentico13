@@ -1,0 +1,37 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets
+@using LittleFashion_Kentico13.Components.Widgets.AboutWidget
+@model _AboutWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<div class="tab-pane fade @(Model.ID == "pills-home" ? "show active" : "")" id="@Model.ID" role="tabpanel">
+
+    <div class="row">
+        <div class="col-lg-7 col-12">
+            @if(Model.ImageUrl != null)
+            {
+                <img src="@Model.ImageUrl" class="img-fluid" alt="">
+            }
+            else
+            {
+                <div class="ratio ratio-16x9">
+                    <iframe src="@Model.YoutubeLink" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            }
+        </div>
+
+        <div class="col-lg-5 col-12">
+            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                <h4 class="mb-3">@Model.Heading</h4>
+
+                <p>@Html.Raw(Model.RichTextContent)</p>
+
+                <div class="mt-2 mt-lg-auto">
+                    <a href="@Model.ButtonUrl" class="custom-link mb-2">
+                        @Model.ButtonText
+                        <i class="bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
