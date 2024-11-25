@@ -11,10 +11,10 @@ namespace LittleFashion_Kentico13.Components.Widgets.FrontProduct
         [EditingComponent(TextInputComponent.IDENTIFIER, Label = "Heading", Order = 1)]
         public string Heading { get; set; }
 
-        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "Rich Text Content", Order = 6)]
+        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "Description", Order = 6)]
         public string Description { get; set; }
 
-        [EditingComponent(UrlSelector.IDENTIFIER, Label = "Button Primary", Order = 3)]
+        [EditingComponent(UrlSelector.IDENTIFIER, Label = "Button Url", Order = 3)]
         public string ButtonUrl { get; set; }
 
         [EditingComponent(TextInputComponent.IDENTIFIER, Label = "Button Text", Order = 4)]

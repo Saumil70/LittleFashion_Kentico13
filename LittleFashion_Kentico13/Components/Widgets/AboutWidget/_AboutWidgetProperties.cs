@@ -16,7 +16,7 @@ namespace LittleFashion_Kentico13.Components.Widgets.AboutWidget
         [EditingComponent(RichTextComponent.IDENTIFIER, Label = "Rich Text Content", Order = 6)]
         public string RichTextContent { get; set; }
 
-        [EditingComponent(UrlSelector.IDENTIFIER, Label = "Button Primary", Order = 3)]
+        [EditingComponent(UrlSelector.IDENTIFIER, Label = "Button Url", Order = 3)]
         public string ButtonUrl { get; set; }
 
         [EditingComponent(TextInputComponent.IDENTIFIER, Label = "Button Text", Order = 4)]
