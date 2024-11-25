@@ -5,40 +5,40 @@ using CMS.SiteProvider;
 using Kentico.Content.Web.Mvc;
 using Kentico.PageBuilder.Web.Mvc;
 using LittleFashion_Kentico13;
-using LittleFashion_Kentico13.Components.Widgets.FrontProduct;
+using LittleFashion_Kentico13.Components.Widgets.FeaturedProduct;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 
-[assembly: RegisterWidget(ComponentIdentifiers.FRONTPRODUCT_WIDGET, typeof(_FrontProductWidgetViewComponent), "Front Product Widget", typeof(_FrontProductWidgetProperties), Description = "Displays the About Widget", IconClass = "icon-square")]
+[assembly: RegisterWidget(ComponentIdentifiers.FEATUREDPRODUCT_WIDGET, typeof(_FeaturedProductWidgetViewComponent), "Featured Product Widget", typeof(_FeaturedProductWidgetProperties), Description = "Displays the Featured Product Widget", IconClass = "icon-square")]
 
-namespace LittleFashion_Kentico13.Components.Widgets.FrontProduct
+namespace LittleFashion_Kentico13.Components.Widgets.FeaturedProduct
 {
-    public class _FrontProductWidgetViewComponent : ViewComponent
+    public class _FeaturedProductWidgetViewComponent : ViewComponent
     {
         private readonly IMediaFileInfoProvider mediaFileProvider;
         private readonly IMediaFileUrlRetriever fileUrlRetriever;
 
-        public _FrontProductWidgetViewComponent(IMediaFileInfoProvider mediaFileProvider, IMediaFileUrlRetriever fileUrlRetriever)
+        public _FeaturedProductWidgetViewComponent(IMediaFileInfoProvider mediaFileProvider, IMediaFileUrlRetriever fileUrlRetriever)
         {
             this.mediaFileProvider = mediaFileProvider;
             this.fileUrlRetriever = fileUrlRetriever;
         }
 
-        public ViewViewComponentResult Invoke(_FrontProductWidgetProperties properties)
+        public ViewViewComponentResult Invoke(_FeaturedProductWidgetProperties properties)
         {
             var imagePath = GetImagePath(properties);
 
-            return View("~/Components/Widgets/FrontProductWidget/_FrontProductWidget.cshtml", new _FrontProductWidgetModel
+            return View("~/Components/Widgets/FeaturedProductsWidget/_FeaturedProductWidget.cshtml", new _FeaturedProductWidgetModel
             {
-                Heading = properties.Heading,
-                Description = properties.Description,
-                ButtonText = properties.ButtonText,
-                ButtonUrl = properties.ButtonUrl,
+                ProductName = properties.ProductName,
+                ProductDescription = properties.ProductDescription,
+                ProductPrice = properties.ProductPrice,
+                ProductUrl = properties.ProductUrl,
                 ImageUrl = GetImagePath(properties),
             });
         }
 
-        private string GetImagePath(_FrontProductWidgetProperties properties)
+        private string GetImagePath(_FeaturedProductWidgetProperties properties)
         {
             if (properties.ImageUrl == null)
             {

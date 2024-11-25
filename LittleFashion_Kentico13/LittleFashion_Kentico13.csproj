@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\Widgets\FeaturedProductsWidget\" />
     <Folder Include="Views\Shared\PageTypes\" />
   </ItemGroup>
 

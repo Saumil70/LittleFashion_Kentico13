@@ -37,14 +37,29 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
         }
     }
 </section>
 
 <editable-area area-identifier="editableArea" />
-@ResHelper.GetString("FeaturedProductHeading");
-<editable-area area-identifier="editableArea2" />
+
+
+@* featured product section
+ *@<section class="featured-product section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 text-center">
+                <h2 class="mb-5">
+                    @ResHelper.GetString("FeaturedProductHeading")
+                </h2>
+            </div>
+            <editable-area area-identifier="editableArea2" />
+        </div>
+    </div>
+</section>
+
 
 
