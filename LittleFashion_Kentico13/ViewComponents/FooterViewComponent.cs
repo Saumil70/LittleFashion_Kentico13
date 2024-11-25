@@ -7,16 +7,17 @@ using CMS.DocumentEngine;
 using CMS.DocumentEngine.Routing;
 using Kentico.Content.Web.Mvc;
 using CMS.SiteProvider;
-using LittleFashion_Kentico13.ViewModel.Menu;
+using CMS.DocumentEngine.Types.LittleFashion_Kentico13;
+using LittleFashion_Kentico13.ViewModel.Footer;
 
 namespace LittleFashion_Kentico13.ViewComponents
 {
-    public class NavigationMenuViewComponent : ViewComponent
+    public class FooterViewComponent : ViewComponent
     {
         private readonly IPageRetriever pageRetriever;
         private readonly IPageUrlRetriever pageUrlRetriever;
 
-        public NavigationMenuViewComponent(IPageRetriever pageRetriever, IPageUrlRetriever pageUrlRetriever)
+        public FooterViewComponent(IPageRetriever pageRetriever, IPageUrlRetriever pageUrlRetriever)
         {
             // Initializes instances of required services using dependency injection
             this.pageRetriever = pageRetriever;
@@ -38,9 +39,18 @@ namespace LittleFashion_Kentico13.ViewComponents
                                                     // Uses the menu item order from the content tree
                                                     .OrderByAscending("NodeOrder"));
 
+            Footer footerData = (await pageRetriever.RetrieveAsync<Footer>(
+                query => query
+                    .TopN(1) // Only retrieves the first footer page
+                    .Columns("CopyRightText", "SitemapText", "SocialText")
+            )).FirstOrDefault();
+
+            IEnumerable<SocialLinks> socialLinksData = await pageRetriever.RetrieveAsync<SocialLinks>(
+    query => query.Columns("SocialLinkText", "SocialLink"));
+
+
             // Get the current site name
             string siteName = SiteContext.CurrentSiteName;
-            string currentPageUrl = HttpContext.Request.Path;
 
 
             // Create a collection of menu item view models
@@ -50,16 +60,24 @@ namespace LittleFashion_Kentico13.ViewComponents
                 MenuItemRelativeUrl = pageUrlRetriever.Retrieve(item).RelativePath // Relative URL path
             }).ToList();
 
-            // Create the header view model
-            HeaderViewModel headerModel = new HeaderViewModel()
+            List<SocialLinksViewModel> socialLinksViewModels = socialLinksData.Select(socialLink => new SocialLinksViewModel
             {
-                MenuItems = menuItemModels, // Assign menu items to the model
-                SiteName = siteName,
-                CurrentPageUrl = currentPageUrl
-            };
+                SocialLinkText = socialLink.SocialLinkText,
+                SocialLink = socialLink.SocialLink
+            }).ToList();
 
+            // Create the header view model
+            FooterViewModel footerModel = new FooterViewModel()
+            {
+                MenuItems = menuItemModels,
+                SiteName = siteName,
+                CopyRightText = footerData.CopyRightText,
+                SitemapText = footerData.SitemapText,
+                SocialText = footerData.SocialText,
+                SocialLinks = socialLinksViewModels
+            };
             // Return the model to the view
-            return View(headerModel);
+            return View(footerModel);
         }
     }
 }

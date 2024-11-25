@@ -1,0 +1,37 @@
+﻿@model LittleFashion_Kentico13.ViewModel.Footer.FooterViewModel
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-10 me-auto mb-4">
+                <h4 class="text-white mb-3"><a href="index.html">@Model.SiteName</h4>
+                @Html.Raw(Model.CopyRightText)
+            </div>
+
+            <div class="col-lg-5 col-8">
+                <h5 class="text-white mb-3">@Model.SitemapText</h5>
+
+                <ul class="footer-menu d-flex flex-wrap">
+                    @foreach (var item in Model.MenuItems)
+                    {
+                        <li class="footer-menu-item"><a href="@item.MenuItemRelativeUrl" class="footer-menu-link">@item.MenuItemText</a></li>
+                    }
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-4">
+                <h5 class="text-white mb-3">Social</h5>
+
+                <ul class="social-icon">
+                    @foreach (var item in Model.SocialLinks)
+                    {
+                        <li><a href="@item.SocialLink" class="@item.SocialLinkText"></a></li>
+                    }
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
