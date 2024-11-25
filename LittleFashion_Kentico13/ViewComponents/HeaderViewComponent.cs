@@ -11,12 +11,12 @@ using LittleFashion_Kentico13.ViewModel.Menu;
 
 namespace LittleFashion_Kentico13.ViewComponents
 {
-    public class NavigationMenuViewComponent : ViewComponent
+    public class HeaderViewComponent : ViewComponent
     {
         private readonly IPageRetriever pageRetriever;
         private readonly IPageUrlRetriever pageUrlRetriever;
 
-        public NavigationMenuViewComponent(IPageRetriever pageRetriever, IPageUrlRetriever pageUrlRetriever)
+        public HeaderViewComponent(IPageRetriever pageRetriever, IPageUrlRetriever pageUrlRetriever)
         {
             // Initializes instances of required services using dependency injection
             this.pageRetriever = pageRetriever;
