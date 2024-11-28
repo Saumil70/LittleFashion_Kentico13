@@ -1,0 +1,39 @@
+﻿@page "/temp"
+
+@using CMS.DocumentEngine.Types.LittleFashion_Kentico13
+@using Kentico.Content.Web.Mvc
+@using Kentico.Content.Web.Mvc.Routing
+@using LittleFashion_Kentico13.ViewModel
+<h3>@model.Title</h3>
+
+@code {
+    // Define a property to hold the data for the Temp page
+    private TempViewModel model;
+
+    // Inject IPageRetriever using dependency injection
+    [Inject]
+    private IPageRetriever PageRetriever { get; set; }
+
+    // Override OnInitializedAsync to fetch data for the Temp page
+    protected override async Task OnInitializedAsync()
+    
+    {
+        // Retrieve the Temp page using the IPageRetriever service
+        var query = PageRetriever.Retrieve<CMS.DocumentEngine.Types.LittleFashion_Kentico13.Temp>(q => q
+            .Path("/temp")  // Specify the path or alias of the Temp page
+            .TopN(1)  // Ensure only one page is returned
+        );
+
+        // Check if the page exists and set the model
+        var tempPage = query.FirstOrDefault();
+
+        if (tempPage != null)
+        {
+            // Map the Title from the retrieved page to the ViewModel
+            model = new TempViewModel
+                {
+                    Title = tempPage.Fields.Title  // Assuming 'Title' is the name of the field
+                };
+        }
+    }
+}

@@ -56,7 +56,8 @@ namespace BlankSiteCore
 
             services.AddAuthentication();
             // services.AddAuthorization();
-
+            services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddControllersWithViews();
             services.AddScoped<HomeRepository>();
         }
@@ -79,9 +80,11 @@ namespace BlankSiteCore
 
             app.UseAuthentication();
             // app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapBlazorHub();
+
+                endpoints.MapFallbackToPage("/_Host");
                 endpoints.Kentico().MapRoutes();
 
                 //endpoints.MapGet("/", async context =>
