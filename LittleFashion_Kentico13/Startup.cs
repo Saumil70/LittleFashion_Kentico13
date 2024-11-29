@@ -36,7 +36,7 @@ namespace BlankSiteCore
                 // features.UseEmailTracking();
                 // features.UseCampaignLogger();
                 // features.UseScheduler();
-                features.UsePageRouting();
+                //features.UsePageRouting();
             });
 
             if (Environment.IsDevelopment())
@@ -85,7 +85,7 @@ namespace BlankSiteCore
                 endpoints.MapBlazorHub();
 
                 endpoints.MapFallbackToPage("/_Host");
-                endpoints.Kentico().MapRoutes();
+                //endpoints.Kentico().MapRoutes();
 
                 //endpoints.MapGet("/", async context =>
                 //{

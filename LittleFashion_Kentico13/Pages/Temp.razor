@@ -15,8 +15,7 @@
     private IPageRetriever PageRetriever { get; set; }
 
     // Override OnInitializedAsync to fetch data for the Temp page
-    protected override async Task OnInitializedAsync()
-    
+    protected override async Task OnInitializedAsync()  
     {
         // Retrieve the Temp page using the IPageRetriever service
         var query = PageRetriever.Retrieve<CMS.DocumentEngine.Types.LittleFashion_Kentico13.Temp>(q => q
