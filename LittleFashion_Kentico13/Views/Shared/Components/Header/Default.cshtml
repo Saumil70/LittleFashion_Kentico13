@@ -1,5 +1,8 @@
-﻿@using LittleFashion_Kentico13.ViewModel.Menu
-
+﻿@using CMS.Helpers
+@using Kentico.Membership.Web.Mvc
+@using Kentico.Web.Mvc
+@using LittleFashion_Kentico13.ViewModel.Menu
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <nav class="navbar navbar-expand-lg">
 
@@ -25,5 +28,24 @@
                 }
             </ul>
         </div>
+    </div>
+
+
+    <div class="dropdown-content">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a class="btn btn-primary btn-sm d-block mb-2" asp-controller="Account" asp-action="YourAccount">@ResHelper.GetString("YourAccount")</a>
+
+            <form method="post" asp-controller="Account" asp-action="Logout">
+                <button type="submit" class="btn btn-danger btn-sm d-block">@ResHelper.GetString("SignOut")</button>
+            </form>
+        }
+        else
+        {
+            <div class="d-flex gap-2">
+                <a class="btn bg-dark text-white btn-sm" asp-controller="Account" asp-action="Register">@ResHelper.GetString("Register")</a>
+                <a class="btn bg-dark text-white btn-sm" asp-controller="Account" asp-action="Login">@ResHelper.GetString("Login")</a>
+            </div>
+        }
     </div>
 </nav>
