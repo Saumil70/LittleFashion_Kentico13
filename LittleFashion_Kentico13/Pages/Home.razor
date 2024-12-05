@@ -1,10 +1,46 @@
 ﻿@page "/home"
-
-
+@using CMS.DocumentEngine
+@using Kentico.Content.Web.Mvc
+@using Kentico.PageBuilder.Web.Mvc
 @using Kentico.Web.Mvc
-<h3>Home</h3>
+@using Microsoft.AspNetCore.Html
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using System.Threading.Tasks
+@using System.Text.Encodings.Web
 
+@inject IHtmlHelper Html
+@inject IPageRetriever PagesRetriever
+@inject IPageDataContextInitializer PageDataContextInitializer
+
+<div>
+    @if (editableArea != null)
+    {
+        @editableArea;
+    }
+    else
+    {
+        <p>Loading...</p>
+    }
+</div>
 
 @code {
+    private IHtmlContentProxy editableArea;
 
+    // The OnInitializedAsync method is where asynchronous operations should be handled
+    protected override async Task OnInitializedAsync()
+    {
+        // Step 1: Retrieve the page using IPageRetriever
+        var page = PagesRetriever.Retrieve<TreeNode>(query => query
+            .Path("/Home", PathTypeEnum.Single))
+            .FirstOrDefault();
+
+        // Step 2: Initialize the page context using IPageDataContextInitializer
+        if (page != null)
+        {
+            PageDataContextInitializer.Initialize(page);
+        }
+
+        // Step 3: Retrieve the editable area asynchronously and store it in the 'renderedContent' variable
+        editableArea = await Html.Kentico().EditableAreaAsync("area1");
+    }
 }
