@@ -26,4 +26,9 @@
             </ul>
         </div>
     </div>
+    @using (Html.BeginForm("SearchIndex", "Search", FormMethod.Get))
+    {
+        <input type="text" name="searchtext" placeholder="Search..." maxlength="1000">
+        <input type="submit" value="Search">
+    }
 </nav>

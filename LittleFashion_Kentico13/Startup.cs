@@ -83,7 +83,9 @@ namespace BlankSiteCore
             app.UseEndpoints(endpoints =>
             {
                 endpoints.Kentico().MapRoutes();
-
+                endpoints.MapControllerRoute(
+    name: "default",
+    pattern: "{controller}/{action}");
                 //endpoints.MapGet("/", async context =>
                 //{
                 //    await context.Response.WriteAsync("The site has not been configured yet.");
