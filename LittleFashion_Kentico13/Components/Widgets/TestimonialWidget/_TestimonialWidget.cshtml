@@ -1,0 +1,13 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets.TestimonialWidget
+@model _TestimonialWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<div class="slick-testimonial-caption">
+    <p class="lead">@Model.TestimonialMessage</p>
+
+    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+        <img src="@Model.ImageUrl" class="img-fluid custom-circle-image me-3" alt="">
+
+        <span>@Model.TeamMemberName</span>
+    </div>
+</div>
