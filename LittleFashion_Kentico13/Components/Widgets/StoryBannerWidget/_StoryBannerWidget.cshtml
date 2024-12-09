@@ -1,0 +1,18 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets
+@using LittleFashion_Kentico13.Components.Widgets.FrontProduct
+@using LittleFashion_Kentico13.Components.Widgets.StoryBannerWidget
+@model _StoryBannerWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<header class="site-header section-padding-img site-header-image">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-12 header-info">
+                   @Html.Raw(Model.Heading)
+            </div>
+        </div>
+    </div>
+
+    <img src="@Model.ImageUrl" class="header-image img-fluid" alt="">
+</header>
