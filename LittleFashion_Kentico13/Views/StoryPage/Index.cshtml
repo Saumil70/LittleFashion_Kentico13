@@ -1,4 +1,5 @@
 ﻿@using CMS.Helpers
+@using LittleFashion_Kentico13
 @addTagHelper *, Kentico.Content.Web.Mvc
 @section styles
 {
@@ -31,5 +32,5 @@
 
 
 @* Testimonial Section *@
-<editable-area area-identifier="editableArea3" />
+<editable-area area-identifier="editableArea3" area-options-allowed-sections="new [] {ComponentIdentifiers.TESTIMONIAL_SECTION}" />
 

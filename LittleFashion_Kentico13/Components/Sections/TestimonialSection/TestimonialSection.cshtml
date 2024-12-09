@@ -1,11 +1,12 @@
 ﻿@addTagHelper *, Kentico.Content.Web.Mvc
 
 @using CMS.Helpers
+@using LittleFashion_Kentico13
 <section class="testimonial section-padding">
     <div class="container">
         <h2 class="text-center">@ResHelper.GetString("TestimonialSectionHeading")</h2>
         <div class="slick-testimonial">
-            <widget-zone />
+            <widget-zone allowed-widgets="new [] {ComponentIdentifiers.TESTIMONIAL_WIDGET}"/>
         </div>
     </div>
 </section>
