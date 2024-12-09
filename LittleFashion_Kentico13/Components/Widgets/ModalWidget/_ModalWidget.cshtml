@@ -1,0 +1,23 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets.ModalWidget
+@model _ModalWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<div class="modal fade" id="@Model.TeamMemberName.Trim().Split(' ')[0].ToLower()" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content border-0">
+            <div class="modal-header flex-column">
+                <h3 class="modal-title" id="exampleModalLabel">@Model.TeamMemberName</h3>
+
+                <h6 class="text-muted">@Model.TeamMemberPosition</h6>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <h5 class="mb-4">@Model.Description</h5>
+                @Html.Raw(Model.BodyContent)
+            </div>
+        </div>
+
+    </div>
+</div>
