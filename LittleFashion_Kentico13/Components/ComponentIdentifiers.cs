@@ -16,5 +16,6 @@
         public const string FEATUREDPRODUCT_WIDGET = "LittleFashion_Kentico13.Components.Widgets.FeaturedProductWidget";
         public const string BUTTON_WIDGET = "LittleFashion_Kentico13.Components.Widgets.ButtonWidget";
         public const string STORYBANNER_WIDGET = "StoryBannerWidget_Identifier";
+        public const string TEAMSECTION_WIDGET = "TeamSectionWidget_Identifier";
     }
 }

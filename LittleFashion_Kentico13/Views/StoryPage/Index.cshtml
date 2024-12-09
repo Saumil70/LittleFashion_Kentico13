@@ -12,7 +12,20 @@
 }
 
 @* Story Banner*@
- <editable-area area-identifier="editableArea" />
+<editable-area area-identifier="editableArea" />
 
+@* Team Section*@
 
+<section class="team section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-5">
+                    @ResHelper.GetString("TeamSectionHeading")
+                </h2>
+            </div>
 
+            <editable-area area-identifier="editableArea2" />
+        </div>
+    </div>
+</section>

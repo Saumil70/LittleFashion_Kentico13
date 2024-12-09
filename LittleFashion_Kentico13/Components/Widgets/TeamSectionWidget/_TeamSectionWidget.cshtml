@@ -1,0 +1,17 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets.TeamSectionWidget
+@model _TeamSectionWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<div class="team-thumb d-flex align-items-center">
+    <img src="@Model.ImageUrl" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+    <div class="team-info">
+        <h5 class="mb-0">@Model.TeamMemberName</h5>
+        <strong class="text-muted">@Model.TeamMemberPosition</strong>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#@Model.TeamMemberName.ToLower()">
+            <i class="bi-plus-circle-fill"></i>
+        </button>
+    </div>
+</div>
