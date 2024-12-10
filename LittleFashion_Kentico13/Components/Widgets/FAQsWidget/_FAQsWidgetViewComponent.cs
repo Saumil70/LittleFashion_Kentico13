@@ -26,10 +26,13 @@ namespace LittleFashion_Kentico13.Components.Widgets.FAQsWidget
 
         public ViewViewComponentResult Invoke(_FAQsWidgetProperties properties)
         {
+            var zoneId = ViewData["ZoneId"] as string;
+
             return View("~/Components/Widgets/FAQsWidget/_FAQsWidget.cshtml", new _FAQsWidgetModel
             {
                 Question = properties.Question,
                 Answer = properties.Answer,
+                ZoneId = zoneId
             });
         }
     }
