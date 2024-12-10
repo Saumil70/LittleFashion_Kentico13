@@ -1,0 +1,22 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets.FAQsWidget
+@model _FAQsWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+@{
+    // Generate unique IDs for the accordion items
+    var uniqueId = Guid.NewGuid().ToString("N");
+}
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="heading-@uniqueId">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@uniqueId" aria-expanded="false" aria-controls="collapse-@uniqueId">
+            @Model.Question
+        </button>
+    </h2>
+
+    <div id="collapse-@uniqueId" class="accordion-collapse collapse" aria-labelledby="heading-@uniqueId" data-bs-parent="#accordionGeneral">
+        <div class="accordion-body">
+            @Html.Raw(Model.Answer)
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+﻿@using LittleFashion_Kentico13
+@using LittleFashion_Kentico13.Components.Sections.FAQsSection
+
+@model FAQsSectionModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+<section class="faq section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12">
+                <h2>@Model.GeneralFAQsTitle</h2>
+                <div class="accordion" id="accordionGeneral">
+                    <widget-zone zone-identifier="product-widget" allowed-widgets="new[] { ComponentIdentifiers.FAQs_WIDGET }" />
+                </div>
+                <h2 class="mt-5">@Model.ProductFAQsTitle</h2>
+                <div class="accordion" id="accordionProduct">
+                    <widget-zone zone-identifier="product-widget" allowed-widgets="new[] { ComponentIdentifiers.FAQs_WIDGET }" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

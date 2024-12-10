@@ -11,6 +11,7 @@
         public const string THREE_COLUMN_SECTION = "LittleFashion_Kentico13.Sections.ThreeColumnSection";
         public const string TESTIMONIAL_SECTION = "TestimonialSection_Identifier";
         public const string PRODUCT_SECTION = "ProductSection_Identifier";
+        public const string FAQs_SECTION = "FAQsSection_Identifier";
 
         // Widgets
         public const string ABOUT_WIDGET = "LittleFashion_Kentico13.Components.Widgets.AboutWidget";
@@ -22,5 +23,6 @@
         public const string MODAL_WIDGET = "ModalWidget_Identifier";
         public const string TESTIMONIAL_WIDGET = "TestimonialWidget_Identifier";
         public const string PRODUCT_WIDGET = "ProductWidget_Identifier";
+        public const string FAQs_WIDGET = "FAQsWidget_Identifier";
     }
 }
