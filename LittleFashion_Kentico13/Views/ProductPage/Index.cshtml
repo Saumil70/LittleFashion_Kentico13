@@ -1,0 +1,29 @@
+﻿@using CMS.Helpers
+@addTagHelper *, Kentico.Content.Web.Mvc
+@section styles
+{
+    @* Includes CSS necessary for page builder functionality *@
+    <page-builder-styles />
+}
+@section scripts
+{
+    @* Includes scripts necessary for page builder functionality *@
+    <page-builder-scripts />
+}
+
+<header class="site-header section-padding d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-10 col-12">
+                <h1>
+                    <span class="d-block text-primary">
+                        @ResHelper.GetString("ProductSectionHeading")
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+@* Product Component*@
+<editable-area area-identifier="editableArea" />

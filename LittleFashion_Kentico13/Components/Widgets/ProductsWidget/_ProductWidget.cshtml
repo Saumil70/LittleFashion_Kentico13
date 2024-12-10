@@ -1,0 +1,32 @@
+﻿@using LittleFashion_Kentico13.Components.Widgets.ProductWidget
+@model _ProductWidgetModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+
+<div class="col-lg-4 col-12 mb-3">
+    <div class="product-thumb">
+        <a href="@Model.ProductUrl">
+            <img src="@Model.ImageUrl" class="img-fluid product-image" alt="">
+        </a>
+
+        <div class="product-top d-flex">
+            @if (Model.ProductStatus != null)
+            {
+                <span class="product-alert me-auto">@Model.ProductStatus</span>
+            }
+            <a href="#" class="bi-heart-fill product-icon"></a>
+        </div>
+
+        <div class="product-info d-flex">
+            <div>
+                <h5 class="product-title mb-0">
+                    <a href="product-detail.html" class="product-title-link">@Model.ProductName</a>
+                </h5>
+
+                <p class="product-p">@Model.ProductDescription</p>
+            </div>
+
+            <small class="product-price text-muted ms-auto mt-auto mb-5">@Model.ProductPrice</small>
+        </div>
+    </div>
+</div>

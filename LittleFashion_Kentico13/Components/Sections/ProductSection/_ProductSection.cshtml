@@ -1,0 +1,21 @@
+﻿@using LittleFashion_Kentico13
+@using LittleFashion_Kentico13.Components.Sections;
+@using LittleFashion_Kentico13.Components.Sections.ProductSection
+@model ProductSectionModel
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+
+<section class="products section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-5">@Model.FirstTitle</h2>
+            </div>
+            <widget-zone zone-identifier="product-widget" allowed-widgets="new[] { ComponentIdentifiers.PRODUCT_WIDGET }" />
+            <div class="col-12">
+                <h2 class="mb-5">@Model.SecondTitle</h2>
+            </div>
+            <widget-zone zone-identifier="product-widget" allowed-widgets="new[] { ComponentIdentifiers.PRODUCT_WIDGET }" />
+        </div>
+    </div>
+</section>
