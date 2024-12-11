@@ -1,0 +1,37 @@
+﻿@using LittleFashion_Kentico13.ViewModel
+@model List<ContactInfoViewModel>
+
+<div class="col-lg-6 col-12 mt-5 ms-auto">
+    <div class="row">
+        @foreach (var contactInfo in Model)
+        {
+            <div class="col-6 border-top border-end contact-info">
+                <h6 class="mb-3">@contactInfo.Title</h6>
+
+                @if (contactInfo.ButtonText != null)
+                {
+                    <a href="@contactInfo.ButtonLink" class="custom-link">
+                        @contactInfo.ButtonText
+                        <i class="bi-arrow-right ms-2"></i>
+                    </a>
+                }
+
+                @if (contactInfo.Description != null)
+                {
+                    <p class="text-muted">@contactInfo.Description</p>
+
+                }
+
+                @if (contactInfo.SocialLinks != null)
+                {
+                    <ul class="social-icon">
+                        @foreach (var socialLink in contactInfo.SocialLinks)
+                        {
+                            <li><a href="@socialLink.SocialLink" class="@socialLink.SocialLinkText"></a></li>
+                        }
+                    </ul>
+                }
+            </div>
+        }
+    </div>
+</div>
