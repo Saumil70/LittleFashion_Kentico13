@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>f35ef36b-3e79-4e3d-84d5-ff178424cf9b</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Global/Footer-(1)/Social-Links/whatsapp</CodeName>
+    <GUID>0ea6f907-a825-4488-a3b8-74b79069c581</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>whatsapp</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[8F8DD5DF9A061267E71A376C8BF4B17ED1440AECB36F0EA8A9DD093C83963F28]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

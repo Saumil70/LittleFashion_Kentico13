@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.userrole>
+  <Parent>
+    <CodeName>customer</CodeName>
+    <GUID>2c073223-52e3-47ef-be12-345850d34806</GUID>
+    <ObjectType>cms.role</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.user_patelsaumil70@gmail.com">
+      <UserID>
+        <CodeName>patelsaumil70@gmail.com</CodeName>
+        <GUID>d82dbbee-8639-46ef-aa75-e06b618aaad5</GUID>
+        <ObjectType>cms.user</ObjectType>
+      </UserID>
+    </Binding>
+  </Bindings>
+</cms.userrole>

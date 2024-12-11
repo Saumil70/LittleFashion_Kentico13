@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.searchindex>
+  <IndexAnalyzerType>simple</IndexAnalyzerType>
+  <IndexCustomAnalyzerClassName />
+  <IndexDisplayName>LittleFashion-Pages</IndexDisplayName>
+  <IndexGUID>1c4a542f-4b7c-4471-8085-c09d428460be</IndexGUID>
+  <IndexName>LittleFashion-Pages</IndexName>
+  <IndexProvider>Lucene</IndexProvider>
+  <IndexSettings>
+    <index>
+      <item classnames="" id="4b8f38a8-5e05-44e7-aac6-9d2ceda69b5f" inclatt="True" inclcats="True" path="/%" type="allowed" />
+    </index>
+  </IndexSettings>
+  <IndexType>cms.document</IndexType>
+</cms.searchindex>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.searchindexculture>
+  <Parent>
+    <CodeName>LittleFashion-Pages</CodeName>
+    <GUID>1c4a542f-4b7c-4471-8085-c09d428460be</GUID>
+    <ObjectType>cms.searchindex</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.culture_en-US">
+      <IndexCultureID>
+        <CodeName>en-US</CodeName>
+        <GUID>4c98fdfa-841b-431e-9bc8-9fc80800ee45</GUID>
+        <ObjectType>cms.culture</ObjectType>
+      </IndexCultureID>
+    </Binding>
+  </Bindings>
+</cms.searchindexculture>

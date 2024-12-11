@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>174897a8-67b9-4a8d-bd58-65042d71bfbf</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Global/Footer-(1)/Social-Links/Youtube</CodeName>
+    <GUID>2e968c96-9d79-47b3-b209-fd257f5a77fe</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Youtube</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[A9E6B44E4DD5DA23EDC6B13544ABDE5AB7501BC84581B3E57FD9295A9D27CE2D]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

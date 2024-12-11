@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>32e58d9f-713c-4415-9edd-316fbcc174ba</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Contact</CodeName>
+    <GUID>5ac04cc4-dfa2-4c95-aa61-ff759aa3ed4f</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Contact</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[4FB221F097DC39EFF4B28D21A5D5A13621EA55F0917551261BE816EC40214A3B]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

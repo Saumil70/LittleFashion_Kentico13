@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.transformation>
+  <TransformationClassID>
+    <CodeName>Ecommerce.Transformations</CodeName>
+    <GUID>7539c21d-cde0-4d71-ab9f-12de5ddec092</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </TransformationClassID>
+  <TransformationCode>
+<![CDATA[
+<table class="productsList" width="100%" cellspacing="0" cellpadding="2" style="text-align: right">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.SKUName")|(identity)GlobalAdministrator|(hash)9a2f398a4f295492fa5c0233aeac9029c49386c973e3a45baacd34336a2cf827%}</th>
+      <th style="text-align: right; padding: 21px 2px 2px 2px;">{%GetResourceString("InvoiceTemplate.SKUUnits")|(identity)GlobalAdministrator|(hash)88c992131c7822f0a8f7f6c150a85d6e949a22accc44e8826310afb065a425e8%}</th>
+      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.SKUPrice")|(identity)GlobalAdministrator|(hash)a904a0f2ab2247c5b70ffd13c405520a03fae842c7dc625070953cb5b79c2399%}</th>
+      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.LineDiscount")|(identity)GlobalAdministrator|(hash)849136e30210300b68801f49ea776ab07888c6e3aa7d92ae4db1f6974ee14141%}</th>
+      <th style="text-align: right; padding-top: 21px;">{%GetResourceString("InvoiceTemplate.Subtotal")|(identity)GlobalAdministrator|(hash)3d0e5b37f357704b7615a39c64aaabc7efe564273abd2cca3dea87f12c649ca4%}</th>
+    </tr>
+  </thead>
+  <tbody>
+]]>
+  </TransformationCode>
+  <TransformationGUID>9855dfe7-5dcd-4650-9118-cc4d819b1d72</TransformationGUID>
+  <TransformationName>Order_ContentTableHeader</TransformationName>
+  <TransformationType>text</TransformationType>
+</cms.transformation>

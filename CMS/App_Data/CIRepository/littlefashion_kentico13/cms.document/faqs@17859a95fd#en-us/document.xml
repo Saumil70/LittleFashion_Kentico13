@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for FAQs -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2024-12-10 05:35:17Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>358badd3-1c3b-4cfc-947f-c443cced7141</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2024-12-10 06:33:07Z</DocumentModifiedWhen>
+  <DocumentName>FAQs</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/FAQs</CodeName>
+    <GUID>a94792c4-8c2f-46d8-8a2f-1a41434ba880</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageBuilderWidgets>
+    <![CDATA[{"editableAreas":[{"identifier":"editableArea","sections":[{"identifier":"abd7ad39-eab6-4fd4-9c6d-550a809a4c2c","type":"FAQsSection_Identifier","properties":{"generalFAQsTitle":"General Info.","productFAQsTitle":"About our products"},"zones":[{"identifier":"9d29994e-cffc-4ab6-8c48-41f497438a4d","widgets":[{"identifier":"8721bc70-cb72-4d88-8f76-e9e12e169bc1","type":"FAQsWidget_Identifier","variants":[{"identifier":"727d5387-e1c0-4c85-9d64-b23bdd84ae2c","properties":{"question":"What is this Little Fashion?","answer":"<p class=\"large-paragraph\"><strong>Little Fashion</strong> is free Bootstrap 5 website template for everyone. There are 8 HTML pages included in this template and you can expand more pages as you need.</p><p class=\"large-paragraph\">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}}]},{"identifier":"40f226a6-fc59-47c7-9719-5f27715b1365","type":"FAQsWidget_Identifier","variants":[{"identifier":"deadc5da-043f-4fd3-9d7e-312285c001f6","properties":{"question":"What is Tooplate website?","answer":"<p class=\"large-paragraph\"><a href=\"https://www.tooplate.com/free-templates\" target=\"_blank\">Tooplate</a> is a great website to download free HTML website templates for your business or personal use. Tooplate website has been online for almost 8 years now. Thank you for visiting our website.</p>"}}]},{"identifier":"6860add1-9dac-4a2f-a08d-a4800078ddf2","type":"FAQsWidget_Identifier","variants":[{"identifier":"10743fe1-55b2-40e3-b53c-8dce2fa009b2","properties":{"question":"How do I support your website?","answer":"<p class=\"large-paragraph\">You can support our Tooplate website by sharing it to your friends or colleagues on the web or social media.</p>"}}]}]},{"identifier":"9a071daf-8991-4baa-9d42-4446f5fedbd0","widgets":[{"identifier":"c43ec6a4-cc51-4781-a853-52d5bd628f65","type":"FAQsWidget_Identifier","variants":[{"identifier":"a42d05b2-3bfe-49f5-ae9a-02ceb9525c73","properties":{"question":"What is Fashion Design?","answer":"<p class=\"large-paragraph\"><strong>Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p><p class=\"large-paragraph\">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}}]},{"identifier":"ddab8680-8941-460a-8eeb-3308cd9dbd6b","type":"FAQsWidget_Identifier","variants":[{"identifier":"3026c93f-4d78-449f-b0a0-d161f2836e48","properties":{"question":"How do I use the product?","answer":"<p class=\"large-paragraph\">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>"}}]}]}]}]}]}]]>
+  </DocumentPageBuilderWidgets>
+  <DocumentShowInMenu>True</DocumentShowInMenu>
+</cms.documentlocalization>

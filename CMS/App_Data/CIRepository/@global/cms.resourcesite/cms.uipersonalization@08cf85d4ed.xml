@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.UIPersonalization</CodeName>
+    <GUID>ab8fa139-0db5-4276-b8ad-e408bd981696</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="LittleFashion_Kentico13">
+      <SiteID>
+        <CodeName>LittleFashion_Kentico13</CodeName>
+        <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

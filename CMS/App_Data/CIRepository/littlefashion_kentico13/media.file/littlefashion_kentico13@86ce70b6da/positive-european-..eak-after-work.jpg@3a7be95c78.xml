@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2024-11-22 09:07:09Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.jpg</FileExtension>
+  <FileGUID>832ad3ec-75cb-433b-90a0-ef1f0d5bd180</FileGUID>
+  <FileImageHeight>1000</FileImageHeight>
+  <FileImageWidth>1500</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>388075d4-575d-4e2a-95f3-0a4c3567bc66</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/jpeg</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>positive-european-woman-has-break-after-work</FileName>
+  <FilePath>positive-european-woman-has-break-after-work.jpg</FilePath>
+  <FileSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>113473</FileSize>
+  <FileTitle />
+</media.file>

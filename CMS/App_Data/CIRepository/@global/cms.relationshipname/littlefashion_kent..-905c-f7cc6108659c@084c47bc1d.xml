@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.relationshipname>
+  <RelationshipAllowedObjects>##DOCUMENTS##</RelationshipAllowedObjects>
+  <RelationshipDisplayName>ContactInfo (SocialLinks)</RelationshipDisplayName>
+  <RelationshipGUID>71623593-1527-411b-b1d9-fd68a54b3479</RelationshipGUID>
+  <RelationshipName>
+    <![CDATA[LittleFashion_Kentico13.ContactInfo_a005450a-f4ce-472d-905c-f7cc6108659c]]>
+  </RelationshipName>
+  <RelationshipNameIsAdHoc>True</RelationshipNameIsAdHoc>
+</cms.relationshipname>

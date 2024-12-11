@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>621d9df1-5552-4426-a574-336b6a64ce65</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Global/Footer-(1)/Footer</CodeName>
+    <GUID>bd086bd3-ed28-4883-bd3a-ffd15e560da8</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Footer</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[469C7A29143FECF580D4F2910DECD5004DDD0D13FB7ADAA0C658280AF4A7BAE9]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

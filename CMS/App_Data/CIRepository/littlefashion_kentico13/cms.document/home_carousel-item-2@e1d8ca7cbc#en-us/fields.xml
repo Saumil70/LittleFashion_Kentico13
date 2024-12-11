@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.littlefashion_kentico13.carouselitem>
+  <ButtonLink>~/products</ButtonLink>
+  <ButtonText>Explore products</ButtonText>
+  <CarouselDescription>
+    <![CDATA[Please share this Little Fashion template to your friends. Thank you for supporting us.]]>
+  </CarouselDescription>
+  <CarouselImage>
+    <![CDATA[~/getmedia/8723dc5e-700b-4483-8444-119a120f1436/17.jpg?width=1920&height=1373&mediaprotectionhash=484bf49a41bca74a20c046b1c35b79df45acf2374eed048c7999c404e36ebd60&ext=.jpg]]>
+  </CarouselImage>
+  <CarouselTitle>New Design</CarouselTitle>
+</documentfields.littlefashion_kentico13.carouselitem>

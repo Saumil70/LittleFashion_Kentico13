@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>8c78ab21-e224-4b44-b12e-c98266746923</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Global/Footer-(1)/Social-Links/skype</CodeName>
+    <GUID>208d6053-82e9-45dd-8914-3177f1e54396</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>skype</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[BB09A7A74FA391ABF8C3852761D81ECEB23C958FCF17A29C7524C7EE609B0DE2]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

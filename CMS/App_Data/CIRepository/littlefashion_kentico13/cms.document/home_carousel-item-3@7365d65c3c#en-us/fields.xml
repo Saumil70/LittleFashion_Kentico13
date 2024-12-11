@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.littlefashion_kentico13.carouselitem>
+  <ButtonLink>~/contact</ButtonLink>
+  <ButtonText>Work with us</ButtonText>
+  <CarouselDescription>
+    <![CDATA[Tooplate is one of the best HTML CSS template websites for everyone.]]>
+  </CarouselDescription>
+  <CarouselImage>
+    <![CDATA[~/getmedia/5bc2386b-6949-4dc9-b16c-8196accbab6e/18.jpg?width=1920&height=1280&mediaprotectionhash=79ba011ad46d236887cbf4ccbb8457c416ba4983eac08fe93a3e0317ea571dc8&ext=.jpg]]>
+  </CarouselImage>
+  <CarouselTitle>Talk to us</CarouselTitle>
+</documentfields.littlefashion_kentico13.carouselitem>

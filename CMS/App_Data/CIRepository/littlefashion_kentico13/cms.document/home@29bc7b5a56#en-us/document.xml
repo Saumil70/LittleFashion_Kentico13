@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Home -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2024-11-21 06:18:55Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>6439aae9-21c9-4c5d-9fe6-528297623885</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2024-12-11 09:42:32Z</DocumentModifiedWhen>
+  <DocumentName>Home</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Home</CodeName>
+    <GUID>c8135f88-a5e8-4c6f-a2fa-a4357101127f</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageBuilderWidgets>
+    <![CDATA[{"editableAreas":[{"identifier":"editableArea","sections":[{"identifier":"1acf4dc0-4679-44b1-8094-da42b157b684","type":"LittleFashion_Kentico13.Components.Sections.AboutSection","properties":{"aboutSectionTitle":"Get started with Little Fashion"},"zones":[{"identifier":"fd0eb2c5-b86c-4f5f-8a0b-bc066b209026","widgets":[{"identifier":"967125f5-e267-4616-9802-bb55091b48e1","type":"LittleFashion_Kentico13.Components.Widgets.AboutWidget","variants":[{"identifier":"f5e9d401-85c7-45df-a7a8-f78f543d35b2","properties":{"id":"pills-home","heading":"Good Design Ideas for your fashion","richTextContent":"<p>Little Fashion templates comes with <a href=\"sign-in.html\">sign in</a> / <a href=\"sign-up.html\">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p><p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>","buttonUrl":"~/storypage","buttonText":"Learn more about us","imageUrl":[{"fileGuid":"3198ecb6-16e3-45f0-860f-100340406b4a"}],"youtubeLink":null}}]},{"identifier":"8c5ac83b-1a13-45dd-b039-d1c0ad31ba16","type":"LittleFashion_Kentico13.Components.Widgets.AboutWidget","variants":[{"identifier":"268ce3c0-bf2a-478d-ac5e-e4d5620d749b","properties":{"id":"pills-youtube","heading":"Life at Studio","richTextContent":"<p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p><p>Custom work is branding, web design, UI/UX design</p>","buttonUrl":"~/contact","buttonText":"Work with us","imageUrl":[],"youtubeLink":"https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0"}}]},{"identifier":"c8510822-0350-41f4-9778-1e4d61a7e37a","type":"LittleFashion_Kentico13.Components.Widgets.AboutWidget","variants":[{"identifier":"0e87fb5c-9499-46e1-9f31-35c3d08b3d93","properties":{"id":"pills-skill","heading":"What can help you?","richTextContent":"<p>Over three years in business, We’ve had the chance on projects</p><div class=\"skill-thumb mt-3\"><strong>Branding</strong> <span class=\"float-end\">90%</span><div class=\"progress\"><div class=\"progress-bar progress-bar-primary\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 90%\"><br></div></div><strong>Design &amp; Stragety</strong> <span class=\"float-end\">70%</span><div class=\"progress\"><div class=\"progress-bar progress-bar-primary\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 70%\"><br></div></div><strong>Online Platform</strong> <span class=\"float-end\">80%</span><div class=\"progress\"><div class=\"progress-bar progress-bar-primary\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 80%\"><br></div></div></div>","buttonUrl":"~/products","buttonText":"Explore products","imageUrl":[{"fileGuid":"56a2651c-ae4b-4566-a48b-56a8a52a7ae7"}],"youtubeLink":null}}]}]}]},{"identifier":"d5edfbe0-280d-4826-856b-8203b8b0d6b0","type":"LittleFashion_Kentico13.Sections.SingleColumnSection","properties":{"theme":null},"zones":[{"identifier":"8ed97de4-f0de-4913-a401-d92b93cf4673","widgets":[{"identifier":"180c798f-6209-40d8-903e-2bb52a962bd7","type":"LittleFashion_Kentico13.Components.Widgets.FrontProductWidget","variants":[{"identifier":"22e3b156-bd87-40f3-bb93-c09021888b84","properties":{"heading":"Retail shop owners","description":"Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate","buttonUrl":"~/products","buttonText":"Explore Products","imageUrl":[{"fileGuid":"faa983e7-09a7-473c-bbc7-056252f57a99"}]}}]}]}]}]},{"identifier":"editableArea2","sections":[{"identifier":"2608145c-0451-41d2-8840-7340b0b62b8c","type":"LittleFashion_Kentico13.Sections.ThreeColumnSection","properties":{"theme":null},"zones":[{"identifier":"c96748bd-9909-4d1c-9c13-17494e77460f","widgets":[{"identifier":"ee2ad8f4-f6dc-4a4c-a005-a939107ed71d","type":"LittleFashion_Kentico13.Components.Widgets.FeaturedProductWidget","variants":[{"identifier":"c94e03f6-fc50-4106-bd97-5dc5e41a0b9c","properties":{"productName":"Tree pot","productDescription":"Original package design from house","productPrice":"$25","productUrl":null,"imageUrl":[{"fileGuid":"78ba5da8-5b06-4f70-aee2-466c8c2c4b94"}]}}]}]},{"identifier":"ac97e0c0-7eed-4e75-a213-b96f5fdeef01","widgets":[{"identifier":"a1855489-6d5f-4f5f-902f-404302fcdd70","type":"LittleFashion_Kentico13.Components.Widgets.FeaturedProductWidget","variants":[{"identifier":"e4f62a44-449d-4bbc-81e8-8181e6e650a3","properties":{"productName":"Fashion Set","productDescription":"Costume Package","productPrice":"$35","productUrl":null,"imageUrl":[{"fileGuid":"f63c772d-8b52-45d9-a98d-a7a555aa8b15"}]}}]}]},{"identifier":"806896a5-c7c8-43f7-acf0-7380da384f7c","widgets":[{"identifier":"df0f19b6-b0c2-43bc-b8f8-390fec9236b3","type":"LittleFashion_Kentico13.Components.Widgets.FeaturedProductWidget","variants":[{"identifier":"15ab1ccd-0be1-4420-a256-2208b59d40a3","properties":{"productName":"Juice Drinks","productDescription":"Nature made another world","productPrice":"$45","productUrl":null,"imageUrl":[{"fileGuid":"ca839141-8234-4373-a87b-667118f84c42"}]}}]}]}]},{"identifier":"b0189e3a-30aa-49c1-8ce9-87ffa3491831","type":"LittleFashion_Kentico13.Sections.SingleColumnSection","properties":{"theme":null},"zones":[{"identifier":"eea9eea8-38db-4318-ac7b-485b98731835","widgets":[{"identifier":"5b860de1-39b8-4303-96bb-761661a0bcd4","type":"LittleFashion_Kentico13.Components.Widgets.ButtonWidget","variants":[{"identifier":"16d87bf7-c690-4e11-9381-8168fac21d01","properties":{"buttonUrl":"~/products","buttonText":"View All Products"}}]}]}]}]}]}]]>
+  </DocumentPageBuilderWidgets>
+  <DocumentShowInMenu>True</DocumentShowInMenu>
+</cms.documentlocalization>

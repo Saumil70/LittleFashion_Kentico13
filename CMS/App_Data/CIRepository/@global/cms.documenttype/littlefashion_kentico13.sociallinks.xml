@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>LittleFashion_Kentico13</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>SocialLinks</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="SocialLinksID" columntype="integer" guid="5f55132f-7b3c-4dd1-b57f-d65458aca339" isPK="true">
+        <properties>
+          <fieldcaption>SocialLinksID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="SocialLinkText" columnsize="200" columntype="text" guid="4833cdf2-8932-44c1-9a9c-81948d223008" visible="true">
+        <properties>
+          <fieldcaption>Social Link Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="SocialLink" columnsize="200" columntype="text" guid="c8bdb764-200d-4c11-9c64-35b4228bfc92" visible="true">
+        <properties>
+          <fieldcaption>Social Link</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>3c22fe5e-12f5-45b7-a494-be2eeafdd437</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>LittleFashion_Kentico13.SocialLinks</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="3296408e-9e64-435f-813a-7e63e5e82856" name="SocialLinkText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="580cef70-73b1-4118-baba-6b2671d19456" name="SocialLink" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="b1de8372-c6e0-40e3-aa24-246fad430e0f" name="SocialLinksID" searchable="True" tokenized="False" updatetrigger="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>LittleFashion_Kentico13_SocialLinks</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

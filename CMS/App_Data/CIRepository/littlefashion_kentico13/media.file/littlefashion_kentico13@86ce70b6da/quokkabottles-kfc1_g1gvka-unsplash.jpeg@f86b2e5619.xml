@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2024-11-22 09:07:34Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.jpeg</FileExtension>
+  <FileGUID>238d7236-e78c-4de2-bda3-e2f72fde559b</FileGUID>
+  <FileImageHeight>640</FileImageHeight>
+  <FileImageWidth>640</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>388075d4-575d-4e2a-95f3-0a4c3567bc66</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/jpeg</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>quokkabottles-kFc1_G1GvKA-unsplash</FileName>
+  <FilePath>quokkabottles-kFc1_G1GvKA-unsplash.jpeg</FilePath>
+  <FileSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>23769</FileSize>
+  <FileTitle />
+</media.file>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>9e275069-3fdc-470a-af6f-eedcc668b6f0</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Home/Carousel-Item-1</CodeName>
+    <GUID>57c3ac52-1db1-471e-8d87-8fe3b746bb88</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Home/Carousel-Item-1</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[1CA49F4D3D4D65F291051B56046E5E2D0DEC3BE811D3FDC5876E9EF29D2E325A]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

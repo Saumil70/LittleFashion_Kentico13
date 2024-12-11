@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>0edcf8ce-1be4-4296-93a2-a5d24032ff17</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/StoryPage</CodeName>
+    <GUID>1a32fe40-b533-41b4-940a-e715f4ae4dd6</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>StoryPage</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[F869B47D6BDEE28872CEB6A74E04CA22224C58EB464ECD1178953865702B4130]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

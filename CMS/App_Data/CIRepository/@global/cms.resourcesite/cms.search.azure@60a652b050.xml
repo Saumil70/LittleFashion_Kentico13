@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.Search.Azure</CodeName>
+    <GUID>6b0a5d42-3671-4eec-8d05-0d3d249ef207</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="LittleFashion_Kentico13">
+      <SiteID>
+        <CodeName>LittleFashion_Kentico13</CodeName>
+        <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

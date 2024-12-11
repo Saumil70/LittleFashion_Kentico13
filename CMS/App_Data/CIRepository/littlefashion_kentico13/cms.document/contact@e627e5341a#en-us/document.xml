@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Contact -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2024-12-10 12:08:19Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>f3c92d61-850b-443e-9fd0-62bef491f37e</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2024-12-10 13:12:11Z</DocumentModifiedWhen>
+  <DocumentName>Contact</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Contact</CodeName>
+    <GUID>5ac04cc4-dfa2-4c95-aa61-ff759aa3ed4f</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageBuilderWidgets>
+    <![CDATA[{"editableAreas":[{"identifier":"editableArea","sections":[{"identifier":"7dfc79fc-f988-404d-a7b1-fbb08c687ee0","type":"Kentico.DefaultSection","properties":null,"zones":[{"identifier":"fa8827c5-7038-4130-a295-f7a6bf841c20","widgets":[]}]},{"identifier":"e9f0ae40-3d40-4aa0-9362-d5e22e0f0530","type":"LittleFashion_Kentico13.Sections.SingleColumnSection","properties":{"theme":null},"zones":[{"identifier":"f5e07535-a12d-4774-944e-d9de4bc1b367","widgets":[{"identifier":"7146ea37-268c-46f0-bfde-5634e6715a28","type":"StoryBannerWidget_Identifier","variants":[{"identifier":"ef0b872e-6772-434e-9da5-c32cd25c52a0","properties":{"heading":"<h1><span class=\"d-block text-primary\">Say hello to us</span> <span class=\"d-block text-dark\">love to hear you</span></h1>","imageUrl":[{"fileGuid":"832ad3ec-75cb-433b-90a0-ef1f0d5bd180"}]}}]}]}]}]}]}]]>
+  </DocumentPageBuilderWidgets>
+  <DocumentShowInMenu>True</DocumentShowInMenu>
+</cms.documentlocalization>

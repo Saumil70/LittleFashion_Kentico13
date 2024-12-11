@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.adhocrelationship>
+  <Parent>
+    <CodeName>/Contact/Contact-Info/Contact-Info-Section-4</CodeName>
+    <GUID>8b054366-4d41-49c8-887b-1de4220866bb</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.node_/Global/Footer-(1)/Social-Links_cms.site_LittleFashion_Kentico13-cms.relationshipname_LittleFashion_Kentico13.ContactInfo_a005450a-f4ce-472d-905c-f7cc6108659c">
+      <RelationshipIsAdHoc>True</RelationshipIsAdHoc>
+      <RelationshipNameID>
+        <CodeName>LittleFashion_Kentico13.ContactInfo_a005450a-f4ce-472d-905c-f7cc6108659c</CodeName>
+        <GUID>71623593-1527-411b-b1d9-fd68a54b3479</GUID>
+        <ObjectType>cms.relationshipname</ObjectType>
+      </RelationshipNameID>
+      <RelationshipOrder>1</RelationshipOrder>
+      <RightNodeID>
+        <CodeName>/Global/Footer-(1)/Social-Links</CodeName>
+        <GUID>2c38842b-b455-4f9a-9673-e8e0e61c22a0</GUID>
+        <ObjectType>cms.node</ObjectType>
+        <Site>
+          <CodeName>LittleFashion_Kentico13</CodeName>
+          <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+      </RightNodeID>
+    </Binding>
+  </Bindings>
+</cms.adhocrelationship>

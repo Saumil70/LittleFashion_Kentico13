@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Products -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2024-12-09 13:47:30Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>80ec91ab-cb09-4b45-9963-6126d4a817bc</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2024-12-10 05:27:47Z</DocumentModifiedWhen>
+  <DocumentName>Products</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Products</CodeName>
+    <GUID>2f0db194-269b-4721-a3d9-4ab6edc8af01</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageBuilderWidgets>
+    <![CDATA[{"editableAreas":[{"identifier":"editableArea","sections":[{"identifier":"3da5f1e4-586f-49e8-a220-6f7280d52060","type":"ProductSection_Identifier","properties":{"firstTitle":"New Arrivals","secondTitle":"Popular"},"zones":[{"identifier":"82b434d7-579e-464e-9464-d49f7ef706de","widgets":[{"identifier":"09052856-64f0-456e-8e63-3e435ae5d7f7","type":"ProductWidget_Identifier","variants":[{"identifier":"3942f04a-7cf1-4326-925f-3df59cd70e25","properties":{"productName":"Tree pot","productDescription":"Original package design from house","productPrice":"$25","productUrl":null,"imageUrl":[{"fileGuid":"78ba5da8-5b06-4f70-aee2-466c8c2c4b94"}],"productStatus":"New Arrival"}}]},{"identifier":"8184c54b-2b4e-469f-b4a8-0672107e19bb","type":"ProductWidget_Identifier","variants":[{"identifier":"09c1d162-d879-4909-ab85-221dcada357c","properties":{"productName":"Fashion set","productDescription":"Costume package","productPrice":"$35","productUrl":null,"imageUrl":[{"fileGuid":"f63c772d-8b52-45d9-a98d-a7a555aa8b15"}],"productStatus":"Discounted Price"}}]},{"identifier":"15b67f6d-6a9e-40db-a0fb-7f4af19454e7","type":"ProductWidget_Identifier","variants":[{"identifier":"12426c7e-1a27-4fc8-a096-97f241e9c4bf","properties":{"productName":"Juice Drinks","productDescription":"Nature made another world","productPrice":"$45","productUrl":null,"imageUrl":[{"fileGuid":"ca839141-8234-4373-a87b-667118f84c42"}],"productStatus":null}}]}]},{"identifier":"681c110c-e0a1-4ce0-b229-8033f4120df0","widgets":[{"identifier":"08236c52-8fee-4c2f-8613-8fd9ea3e577d","type":"ProductWidget_Identifier","variants":[{"identifier":"4c72fd64-3b46-4df6-82a2-2f01eeddad03","properties":{"productName":"Package","productDescription":"Original package design from house","productPrice":"$50","productUrl":null,"imageUrl":[{"fileGuid":"4a20e488-fd3a-4e76-af24-18304423760f"}],"productStatus":"Trending"}}]},{"identifier":"255b6c19-4143-4111-ac70-cf9414369fbc","type":"ProductWidget_Identifier","variants":[{"identifier":"30e55c52-3c21-400a-9c8b-85e39d8b5a2a","properties":{"productName":"Bottle","productDescription":"Package design","productPrice":"$100","productUrl":null,"imageUrl":[{"fileGuid":"238d7236-e78c-4de2-bda3-e2f72fde559b"}],"productStatus":null}}]},{"identifier":"9ac1b67b-c578-4a37-93e1-9876df4bb927","type":"ProductWidget_Identifier","variants":[{"identifier":"3ec7f25c-84e2-4b98-a5a9-ca432797eef4","properties":{"productName":"Medicine","productDescription":"Original design from house","productPrice":"$200","productUrl":null,"imageUrl":[{"fileGuid":"35d3480d-cab9-47f9-bfc5-9ddde7fc2427"}],"productStatus":null}}]}]}]}]}]}]]>
+  </DocumentPageBuilderWidgets>
+  <DocumentShowInMenu>True</DocumentShowInMenu>
+</cms.documentlocalization>

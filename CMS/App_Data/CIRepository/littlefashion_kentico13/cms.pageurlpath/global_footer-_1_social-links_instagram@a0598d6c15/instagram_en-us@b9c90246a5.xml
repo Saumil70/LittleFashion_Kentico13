@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>b44f1bf2-bbc3-44af-aaae-4950fc173ed1</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Global/Footer-(1)/Social-Links/instagram</CodeName>
+    <GUID>cf58d503-12f9-48f1-962e-ac8d9eb19c55</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>instagram</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[CE6ACCE521E17044A4974317076375AFC2BAEEF0FE8499093152B8ACECE2CABC]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

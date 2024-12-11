@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>LittleFashion_Kentico13</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Footer</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="FooterID" columntype="integer" guid="e8a1c55a-3477-459d-be1c-f537da4199f8" isPK="true">
+        <properties>
+          <fieldcaption>FooterID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="CopyRightText" columntype="longtext" guid="0ed74113-44f0-47b3-8543-e2d2dcaeca16" visible="true">
+        <properties>
+          <fieldcaption>CopyRight Text</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="SitemapText" columnsize="200" columntype="text" guid="edf993ef-014a-4705-a47d-8e296e2cb845" visible="true">
+        <properties>
+          <fieldcaption>Sitemap Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="SocialText" columnsize="200" columntype="text" guid="8a5b20aa-815d-4b99-96bc-e0116fee7c6b" visible="true">
+        <properties>
+          <fieldcaption>Social Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>564d9232-7acd-417d-80bc-00028c02b517</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>LittleFashion_Kentico13.Footer</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="8438dbbe-c172-4e94-b99b-3141c64ffb63" name="FooterID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="ba75762e-da9a-4bd9-b869-744b7ae3d92e" name="SitemapText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="c5d7d700-112d-43ed-819b-00ce2dd28324" name="CopyRightText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="cc72ec3b-8953-4058-b555-a40f374e5562" name="SocialText" searchable="False" tokenized="True" updatetrigger="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>LittleFashion_Kentico13_Footer</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.usersettings>
+  <UserActivationDate>2024-11-29 10:36:53Z</UserActivationDate>
+  <UserCampaign />
+  <UserCustomData />
+  <UserDescription />
+  <UserGender>0</UserGender>
+  <UserIM />
+  <UserLogActivities>True</UserLogActivities>
+  <UserNickName>saumil patel</UserNickName>
+  <UserPasswordLastChanged>2024-11-29 13:35:17Z</UserPasswordLastChanged>
+  <UserPhone />
+  <UserPosition />
+  <UserSettingsUserGUID>d82dbbee-8639-46ef-aa75-e06b618aaad5</UserSettingsUserGUID>
+  <UserSettingsUserID>
+    <CodeName>patelsaumil70@gmail.com</CodeName>
+    <GUID>d82dbbee-8639-46ef-aa75-e06b618aaad5</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </UserSettingsUserID>
+  <UserShowIntroductionTile>True</UserShowIntroductionTile>
+  <UserSignature />
+  <UserSkype />
+  <UserWaitingForApproval>False</UserWaitingForApproval>
+</cms.usersettings>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.library>
+  <LibraryAccess>4444444</LibraryAccess>
+  <LibraryDisplayName>LittleFashion_Kentico13</LibraryDisplayName>
+  <LibraryFolder>LittleFashion_Kentico13</LibraryFolder>
+  <LibraryGUID>388075d4-575d-4e2a-95f3-0a4c3567bc66</LibraryGUID>
+  <LibraryName>LittleFashion_Kentico13</LibraryName>
+  <LibrarySiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </LibrarySiteID>
+  <LibraryUseDirectPathForContent>False</LibraryUseDirectPathForContent>
+</media.library>

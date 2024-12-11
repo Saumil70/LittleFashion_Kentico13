@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2024-11-22 09:07:23Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.jpeg</FileExtension>
+  <FileGUID>47ed220e-8795-4888-825e-043dd88dfd4e</FileGUID>
+  <FileImageHeight>300</FileImageHeight>
+  <FileImageWidth>300</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>388075d4-575d-4e2a-95f3-0a4c3567bc66</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/jpeg</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>
+    <![CDATA[woman-wearing-mask-face-closeup-covid-19-green-background]]>
+  </FileName>
+  <FilePath>
+    <![CDATA[woman-wearing-mask-face-closeup-covid-19-green-background.jpeg]]>
+  </FilePath>
+  <FileSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>26072</FileSize>
+  <FileTitle />
+</media.file>

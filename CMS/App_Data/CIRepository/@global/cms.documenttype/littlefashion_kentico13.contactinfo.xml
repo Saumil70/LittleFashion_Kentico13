@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>LittleFashion_Kentico13</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>ContactInfo</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ContactInfoID" columntype="integer" guid="e68d33b3-fd64-4d73-bf30-0c9d84b1d8a6" isPK="true">
+        <properties>
+          <fieldcaption>ContactInfoID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="Title" columnsize="200" columntype="text" guid="50b19a03-1468-4a2f-befa-3268e662e110" visible="true">
+        <properties>
+          <fieldcaption>Title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ButtonText" columnsize="200" columntype="text" guid="ad2854eb-9e21-459f-a717-5e63770f1583" visible="true">
+        <properties>
+          <fieldcaption>ButtonText</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ButtonLink" columnsize="200" columntype="text" guid="b83a4e92-731a-4cb8-8257-d0e69b2a2c47" visible="true">
+        <properties>
+          <fieldcaption>ButtonLink</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize>
+<![CDATA[
+<AutoResize>
+  <autoresize>noresize</autoresize>
+  <autoresize_width />
+  <autoresize_height />
+  <autoresize_maxsidesize />
+</AutoResize>
+]]>
+          </Autoresize>
+          <Configuration>True</Configuration>
+          <controlname>URLSelector</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+        </settings>
+      </field>
+      <field allowempty="true" column="Description" columnsize="200" columntype="text" guid="ab47df93-718b-4c34-959a-550fff89edef" visible="true">
+        <properties>
+          <fieldcaption>Description</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextAreaControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Wrap>True</Wrap>
+        </settings>
+      </field>
+      <field allowempty="true" column="SocialLinks" columntype="docrelationships" guid="a005450a-f4ce-472d-905c-f7cc6108659c" visible="true">
+        <properties>
+          <fieldcaption>SocialLinks</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>Pages</controlname>
+          <StartingPath>/</StartingPath>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>c2ac0656-1e1e-4faa-ba71-e47cd2b18dd0</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>LittleFashion_Kentico13.ContactInfo</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="30e37800-bfbe-4226-8751-a5cf3c1bc008" name="ButtonLink" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="365f18e5-ab77-4687-830e-e7aef218b0e9" name="Description" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="5c56b5b0-a845-4e99-accf-b2041aa6d202" name="ContactInfoID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="90dff4b1-e818-4640-981a-7771e6d770e0" name="Title" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="c52da5e3-b116-40e8-8632-4b8d76cc51b6" name="SocialLinks" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="d4c5622e-7d5e-4df8-9ca4-247bf3a9a30f" name="ButtonText" searchable="False" tokenized="True" updatetrigger="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>LittleFashion_Kentico13_ContactInfo</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

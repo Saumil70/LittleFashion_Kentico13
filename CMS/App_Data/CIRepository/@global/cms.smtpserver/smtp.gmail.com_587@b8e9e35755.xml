@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.smtpserver>
+  <ServerAuthenticationType>basic</ServerAuthenticationType>
+  <ServerDeliveryMethod>0</ServerDeliveryMethod>
+  <ServerEnabled>True</ServerEnabled>
+  <ServerGUID>75e71615-56b7-49a5-973f-6e4822d36a0b</ServerGUID>
+  <ServerIsGlobal>True</ServerIsGlobal>
+  <ServerName>smtp.gmail.com:587</ServerName>
+  <ServerPassword>xYE30rTNMtNAL7+aSAeX20AUsooaNbbuv8O19PVX52w=</ServerPassword>
+  <ServerPriority>0</ServerPriority>
+  <ServerUserName>patelsaumil70@gmail.com</ServerUserName>
+  <ServerUseSSL>False</ServerUseSSL>
+</cms.smtpserver>

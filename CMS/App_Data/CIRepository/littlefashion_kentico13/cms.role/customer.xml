@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.role>
+  <RoleDisplayName>customer</RoleDisplayName>
+  <RoleGUID>2c073223-52e3-47ef-be12-345850d34806</RoleGUID>
+  <RoleIsDomain>False</RoleIsDomain>
+  <RoleName>customer</RoleName>
+  <SiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SiteID>
+</cms.role>

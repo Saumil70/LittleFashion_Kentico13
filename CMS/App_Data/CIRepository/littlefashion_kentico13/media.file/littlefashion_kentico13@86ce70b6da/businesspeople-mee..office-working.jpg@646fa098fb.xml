@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2024-11-22 09:07:09Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.jpg</FileExtension>
+  <FileGUID>d0446424-183e-4dc4-8234-84dceea0d9b5</FileGUID>
+  <FileImageHeight>975</FileImageHeight>
+  <FileImageWidth>1500</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>388075d4-575d-4e2a-95f3-0a4c3567bc66</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/jpeg</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>businesspeople-meeting-office-working</FileName>
+  <FilePath>businesspeople-meeting-office-working.jpg</FilePath>
+  <FileSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>133496</FileSize>
+  <FileTitle />
+</media.file>

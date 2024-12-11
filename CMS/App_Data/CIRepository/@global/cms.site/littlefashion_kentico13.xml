@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.site>
+  <SiteDisplayName>LittleFashion_Kentico13</SiteDisplayName>
+  <SiteDomainName>localhost</SiteDomainName>
+  <SiteGUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</SiteGUID>
+  <SiteName>LittleFashion_Kentico13</SiteName>
+  <SitePresentationURL>http://localhost:25291/</SitePresentationURL>
+</cms.site>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.littlefashion_kentico13.carouselitem>
+  <ButtonLink>~/storypage</ButtonLink>
+  <ButtonText>Learn more about us</ButtonText>
+  <CarouselDescription>
+    <![CDATA[Little fashion template comes with total 8 HTML pages provided by Tooplate website.]]>
+  </CarouselDescription>
+  <CarouselImage>
+    <![CDATA[~/getmedia/dbcdb9ed-4736-442d-8c62-0778e7c310dc/07.jpg?width=1920&height=1280&mediaprotectionhash=714b6390603fdb49f575617f95282efdafdc73b37352578c8d22639f23dc37fe&ext=.jpg]]>
+  </CarouselImage>
+  <CarouselTitle>Cool Fashion</CarouselTitle>
+</documentfields.littlefashion_kentico13.carouselitem>
