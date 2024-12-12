@@ -1,0 +1,36 @@
+﻿@model SearchResultModel
+
+@using CMS.DataEngine
+@using CMS.Search;
+@using Kentico.Web.Mvc
+@using LittleFashion_Kentico13.Models.Search
+
+@if (!Model.Items.Any())
+{
+    if (!String.IsNullOrWhiteSpace(Model.Query))
+    {
+        <h3>No results found for "@Model.Query"</h3>
+    }
+}
+else
+{
+    <div style="margin-top:100px">
+        <h3>Results for "@Model.Query"</h3>
+        @foreach (SearchResultItem item in Model.Items)
+        {
+            <div>
+                @item.Image
+            </div>
+            var url = item.Data.GetType().GetProperty("AbsoluteURL").GetValue(item.Data).ToString();
+            <div>
+                <strong><a href="@url">@item.Title</a></strong>
+            </div>
+            <div>
+                @item.Content
+            </div>
+            <div>
+                @item.Created
+            </div>
+        }
+    </div>
+}
