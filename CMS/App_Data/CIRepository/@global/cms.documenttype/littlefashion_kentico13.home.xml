@@ -22,7 +22,7 @@
   <ClassNodeNameSource />
   <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
   <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>0</ClassSearchIndexDataSource>
   <ClassSearchSettings>

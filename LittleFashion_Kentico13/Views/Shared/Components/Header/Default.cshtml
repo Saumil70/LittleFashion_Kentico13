@@ -42,7 +42,7 @@
         @if (User.Identity.IsAuthenticated)
         {
             <div class="d-flex gap-2">
-                <a class="btn bg-dark text-white btn-sm" asp-controller="Account" asp-action="YourAccount">@ResHelper.GetString("YourAccount")</a>
+                <a class="btn bg-dark text-white btn-sm" style="width:max-content" asp-controller="Account" asp-action="YourAccount">@ResHelper.GetString("YourAccount")</a>
 
                 <form method="post" asp-controller="Account" asp-action="Logout">
                     <button type="submit" class="btn bg-dark text-white btn-sm">@ResHelper.GetString("SignOut")</button>
