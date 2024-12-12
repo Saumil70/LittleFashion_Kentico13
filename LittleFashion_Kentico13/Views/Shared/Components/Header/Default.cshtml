@@ -34,11 +34,13 @@
     <div class="dropdown-content">
         @if (User.Identity.IsAuthenticated)
         {
-            <a class="btn btn-primary btn-sm d-block mb-2" asp-controller="Account" asp-action="YourAccount">@ResHelper.GetString("YourAccount")</a>
+            <div class="d-flex gap-2">
+                <a class="btn bg-dark text-white btn-sm" asp-controller="Account" asp-action="YourAccount">@ResHelper.GetString("YourAccount")</a>
 
-            <form method="post" asp-controller="Account" asp-action="Logout">
-                <button type="submit" class="btn btn-danger btn-sm d-block">@ResHelper.GetString("SignOut")</button>
-            </form>
+                <form method="post" asp-controller="Account" asp-action="Logout">
+                    <button type="submit" class="btn bg-dark text-white btn-sm">@ResHelper.GetString("SignOut")</button>
+                </form>
+            </div>
         }
         else
         {
