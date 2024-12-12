@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>LittleFashion_Kentico13</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Inventory</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ProductListingID" columntype="integer" guid="730c70f6-8bae-45c8-8e77-7fba7daffc37" isPK="true">
+        <properties>
+          <fieldcaption>ProductListingID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="FirstTitle" columnsize="200" columntype="text" guid="134465f6-3d31-4d64-ad5e-d417e3808544" visible="true">
+        <properties>
+          <fieldcaption>FirstTitle</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="SecondTitle" columnsize="200" columntype="text" guid="89ec1072-62b5-400a-84fa-46951ebf4f5f" visible="true">
+        <properties>
+          <fieldcaption>SecondTitle</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>b303ee96-2939-46bf-8bf1-45506d99ce38</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassInheritsFromClassID>0</ClassInheritsFromClassID>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>LittleFashion_Kentico13.Inventory</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="1f8093d4-5c4b-4a18-9371-17bfb297a6b8" name="ProductListingID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="4d82daba-1fc1-49c5-ad14-fd7a0125bc64" name="FirstTitle" searchable="False" tokenized="False" updatetrigger="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="7412195c-2445-4a77-84a9-d044cd099515" name="SecondTitle" searchable="False" tokenized="False" updatetrigger="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>LittleFashion_Kentico13_ProductListing</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>True</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

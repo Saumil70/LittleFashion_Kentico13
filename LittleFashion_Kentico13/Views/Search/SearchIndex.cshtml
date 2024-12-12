@@ -14,23 +14,65 @@
 }
 else
 {
+    var dictionaryList = new List<Dictionary<string, object>>();
+    foreach (var items in Model.Items)
+    {
+        var fields = (items.Data?.GetType().GetProperty("Fields")?.GetValue(items.Data));
+
+        var fieldsDictionary = new Dictionary<string, object>();
+        if (fields != null)
+        {
+            var properties = fields.GetType().GetProperties();
+
+            foreach (var property in properties)
+            {
+                if (property.GetIndexParameters().Length == 0 && !property.PropertyType.IsGenericType)
+                {
+                    fieldsDictionary[property.Name] = property.GetValue(fields).ToString();
+                }
+            }
+        }
+        dictionaryList.Add(fieldsDictionary);
+    }
+
     <div style="margin-top:100px">
         <h3>Results for "@Model.Query"</h3>
-        @foreach (SearchResultItem item in Model.Items)
-        {
-            <div>
-                @item.Image
+        <section class="products section-padding">
+            <div class="container">
+                <div class="row">
+                    @foreach (var item in dictionaryList)
+                    {
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="@item["ImageUrl"]" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    @if (!string.IsNullOrEmpty(item["ProductStatus"].ToString()))
+                                    {
+                                        <span class="product-alert me-auto">@item["ProductStatus"]</span>
+                                    }
+
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">@item["ProductName"]</a>
+                                        </h5>
+
+                                        <p class="product-p">@item["ProductDescription"]</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto">@item["ProductPrice"]</small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
-            var url = item.Data.GetType().GetProperty("AbsoluteURL").GetValue(item.Data).ToString();
-            <div>
-                <strong><a href="@url">@item.Title</a></strong>
-            </div>
-            <div>
-                @item.Content
-            </div>
-            <div>
-                @item.Created
-            </div>
-        }
+        </section>
     </div>
 }

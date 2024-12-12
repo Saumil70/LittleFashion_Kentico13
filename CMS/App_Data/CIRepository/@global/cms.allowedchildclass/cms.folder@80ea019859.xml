@@ -27,5 +27,12 @@
         <ObjectType>cms.documenttype</ObjectType>
       </ParentClassID>
     </Binding>
+    <Binding id="cms.documenttype_LittleFashion_Kentico13.Inventory">
+      <ParentClassID>
+        <CodeName>LittleFashion_Kentico13.Inventory</CodeName>
+        <GUID>b303ee96-2939-46bf-8bf1-45506d99ce38</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
   </Bindings>
 </cms.allowedchildclass>

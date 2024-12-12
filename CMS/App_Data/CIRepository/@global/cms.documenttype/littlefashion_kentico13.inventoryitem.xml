@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>LittleFashion_Kentico13</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>InventoryItem</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="InventoryItemID" columntype="integer" guid="8810811b-aa18-4baa-b64e-da520ef5d0cb" isPK="true">
+        <properties>
+          <fieldcaption>InventoryItemID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="ProductName" columnsize="200" columntype="text" guid="4d93ba92-b84c-4ed4-b2db-96ee9a13116b" visible="true">
+        <properties>
+          <fieldcaption>ProductName</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ProductDescription" columnsize="200" columntype="text" guid="523c03be-1bf2-4841-b2ff-fe634d605439" visible="true">
+        <properties>
+          <fieldcaption>ProductDescription</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ProductPrice" columnsize="200" columntype="text" guid="479180cf-d1b2-4486-b9dc-ac5995041d35" visible="true">
+        <properties>
+          <fieldcaption>ProductPrice</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ProductUrl" columnsize="200" columntype="text" guid="f53e95d9-9b6f-4b91-a1d8-da3fe8424833" visible="true">
+        <properties>
+          <fieldcaption>ProductUrl</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize>
+<![CDATA[
+<AutoResize>
+  <autoresize>noresize</autoresize>
+  <autoresize_width />
+  <autoresize_height />
+  <autoresize_maxsidesize />
+</AutoResize>
+]]>
+          </Autoresize>
+          <Configuration>True</Configuration>
+          <controlname>URLSelector</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+        </settings>
+      </field>
+      <field allowempty="true" column="ImageUrl" columnsize="1000" columntype="text" guid="3e39ccd2-7a4a-4919-80fd-70f0b6dbe646" visible="true">
+        <properties>
+          <fieldcaption>ImageUrl</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>MediaSelectionControl</controlname>
+          <ShowPreview>True</ShowPreview>
+        </settings>
+      </field>
+      <field allowempty="true" column="ProductStatus" columnsize="200" columntype="text" guid="1f61fcf9-d86a-45ed-91c5-a38bb56c4162" visible="true">
+        <properties>
+          <fieldcaption>ProductStatus</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>a2234413-0a29-4084-b31a-120e2a4dd79b</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>LittleFashion_Kentico13.InventoryItem</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="05f3a0b8-8ec8-4098-b132-0aac3608fd31" name="ProductName" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="429f63f1-9d70-47f0-b719-1d2090bc1ae6" name="ProductUrl" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="5ffabc12-3652-40e5-9c04-983823464b4c" name="InventoryItemID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="66f3e808-233e-4a65-bb45-74f7544be9d8" name="ProductDescription" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="8608db0a-7a17-4c73-bb1f-a9ce43260577" name="ImageUrl" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="b84d6cd2-1688-4f7b-9fcd-545fbc8ba261" name="ProductPrice" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="d72ed793-e19f-40e1-8be8-720aa419080b" name="ProductStatus" searchable="False" tokenized="True" updatetrigger="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>LittleFashion_Kentico13_InventoryItem</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for /Inventory/Popular/Inventory-Item-1 -->
+<cms.node>
+  <NodeACLID>
+    <GUID>0072d163-58b7-495f-bbcd-1f15eaadf7e3</GUID>
+    <ObjectType>cms.acl</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeACLID>
+  <NodeAlias>Inventory-Item-1</NodeAlias>
+  <NodeClassID>
+    <CodeName>LittleFashion_Kentico13.InventoryItem</CodeName>
+    <GUID>a2234413-0a29-4084-b31a-120e2a4dd79b</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </NodeClassID>
+  <NodeGUID>6b46736b-8c7c-4e5c-a918-25debf014ab3</NodeGUID>
+  <NodeIsACLOwner>False</NodeIsACLOwner>
+  <NodeName>Inventory Item 1</NodeName>
+  <NodeOrder>1</NodeOrder>
+  <NodeOwner>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </NodeOwner>
+  <NodeParentID>
+    <CodeName>/Inventory/Popular</CodeName>
+    <GUID>59ea00cb-9667-4ba3-890f-0f2d5666a62c</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeParentID>
+  <NodeSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NodeSiteID>
+</cms.node>
