@@ -11,6 +11,36 @@
     </Site>
   </Parent>
   <Bindings>
+    <Binding id="cms.user_jeelvachani10@gmail.com">
+      <UserID>
+        <CodeName>jeelvachani10@gmail.com</CodeName>
+        <GUID>609046fe-eef9-4453-b38c-3cca613ca36a</GUID>
+        <ObjectType>cms.user</ObjectType>
+      </UserID>
+    </Binding>
+    <Binding id="cms.user_jeelvachani20@gmail.com">
+      <UserID>
+        <CodeName>jeelvachani20@gmail.com</CodeName>
+        <GUID>0c001d59-a480-46f1-b460-ed67433b4903</GUID>
+        <ObjectType>cms.user</ObjectType>
+      </UserID>
+      <ValidTo>2024-12-12 05:53:31Z</ValidTo>
+    </Binding>
+    <Binding id="cms.user_jeelvachani30@gmail.com">
+      <UserID>
+        <CodeName>jeelvachani30@gmail.com</CodeName>
+        <GUID>06a14bbf-e676-45e4-964a-16ae97c6a743</GUID>
+        <ObjectType>cms.user</ObjectType>
+      </UserID>
+      <ValidTo>2024-12-12 05:51:35Z</ValidTo>
+    </Binding>
+    <Binding id="cms.user_jeelvachani60@gmail.com">
+      <UserID>
+        <CodeName>jeelvachani60@gmail.com</CodeName>
+        <GUID>3becf57e-3e95-4733-9fba-35cf12d5f726</GUID>
+        <ObjectType>cms.user</ObjectType>
+      </UserID>
+    </Binding>
     <Binding id="cms.user_patelsaumil70@gmail.com">
       <UserID>
         <CodeName>patelsaumil70@gmail.com</CodeName>

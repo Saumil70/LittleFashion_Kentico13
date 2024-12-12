@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.usersettings>
+  <UserActivationDate>2024-12-12 05:51:35Z</UserActivationDate>
+  <UserCampaign />
+  <UserCustomData />
+  <UserDescription />
+  <UserGender>0</UserGender>
+  <UserIM />
+  <UserLogActivities>True</UserLogActivities>
+  <UserNickName>jeel vachani</UserNickName>
+  <UserPasswordLastChanged>2024-12-12 05:51:34Z</UserPasswordLastChanged>
+  <UserPhone />
+  <UserPosition />
+  <UserSettingsUserGUID>06a14bbf-e676-45e4-964a-16ae97c6a743</UserSettingsUserGUID>
+  <UserSettingsUserID>
+    <CodeName>jeelvachani30@gmail.com</CodeName>
+    <GUID>06a14bbf-e676-45e4-964a-16ae97c6a743</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </UserSettingsUserID>
+  <UserShowIntroductionTile>True</UserShowIntroductionTile>
+  <UserSignature />
+  <UserSkype />
+  <UserWaitingForApproval>False</UserWaitingForApproval>
+</cms.usersettings>

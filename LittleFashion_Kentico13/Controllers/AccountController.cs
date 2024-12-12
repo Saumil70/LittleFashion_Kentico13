@@ -9,8 +9,7 @@ using CMS.ContactManagement;
 using CMS.Core;
 using CMS.Helpers;
 using CMS.Membership;
-
-
+using CMS.SiteProvider;
 using Kentico.Content.Web.Mvc;
 using Kentico.Membership;
 using Kentico.Web.Mvc;
@@ -169,6 +168,26 @@ namespace LittleFashion_Kentico13.Controllers
 
             if (registerResult.Succeeded)
             {
+                try
+                {
+                    // Assign the default "Customer" role to the user
+                    var roleName = Constants.DefaultRole;
+                    var role = RoleInfoProvider.GetRoleInfo(roleName, SiteContext.CurrentSiteName);
+
+                    if (role != null)
+                    {
+                        UserRoleInfoProvider.AddUserToRole(user.Id, role.RoleID);
+                    }
+                    else
+                    {
+                        eventLogService.LogError("AccountController", "AssignRole", $"Role '{roleName}' not found.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    eventLogService.LogException("AccountController", "AssignRole", ex);
+                }
+
                 membershipActivitiesLogger.LogRegistration(model.UserName);
 
                 var signInResult = await signInManager.PasswordSignInAsync(user, model.Password, true, false);

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.usersite>
+  <Parent>
+    <CodeName>jeelvachani30@gmail.com</CodeName>
+    <GUID>06a14bbf-e676-45e4-964a-16ae97c6a743</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="LittleFashion_Kentico13">
+      <SiteID>
+        <CodeName>LittleFashion_Kentico13</CodeName>
+        <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.usersite>
