@@ -96,7 +96,7 @@
   <ClassNodeNameSource />
   <ClassSearchContentColumn>CarouselDescription</ClassSearchContentColumn>
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
   <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
   <ClassSearchSettings>

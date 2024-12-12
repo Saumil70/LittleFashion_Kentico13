@@ -94,17 +94,19 @@
   <ClassIsNavigationItem>True</ClassIsNavigationItem>
   <ClassName>LittleFashion_Kentico13.ContactInfo</ClassName>
   <ClassNodeNameSource />
+  <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="30e37800-bfbe-4226-8751-a5cf3c1bc008" name="ButtonLink" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="365f18e5-ab77-4687-830e-e7aef218b0e9" name="Description" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="5c56b5b0-a845-4e99-accf-b2041aa6d202" name="ContactInfoID" searchable="True" tokenized="False" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="90dff4b1-e818-4640-981a-7771e6d770e0" name="Title" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="c52da5e3-b116-40e8-8632-4b8d76cc51b6" name="SocialLinks" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="d4c5622e-7d5e-4df8-9ca4-247bf3a9a30f" name="ButtonText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="30e37800-bfbe-4226-8751-a5cf3c1bc008" name="ButtonLink" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="365f18e5-ab77-4687-830e-e7aef218b0e9" name="Description" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="5c56b5b0-a845-4e99-accf-b2041aa6d202" name="ContactInfoID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="90dff4b1-e818-4640-981a-7771e6d770e0" name="Title" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="c52da5e3-b116-40e8-8632-4b8d76cc51b6" name="SocialLinks" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="d4c5622e-7d5e-4df8-9ca4-247bf3a9a30f" name="ButtonText" searchable="False" tokenized="True" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>

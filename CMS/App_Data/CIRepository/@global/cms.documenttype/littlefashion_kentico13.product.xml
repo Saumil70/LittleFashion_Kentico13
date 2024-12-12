@@ -40,12 +40,15 @@
   <ClassIsNavigationItem>True</ClassIsNavigationItem>
   <ClassName>LittleFashion_Kentico13.Product</ClassName>
   <ClassNodeNameSource />
+  <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
   <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="a78bc4f9-916f-4ddb-9857-90d3530438ef" name="ProductID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="8339cbb8-afed-41d5-919e-85c6ba060274" name="Title" searchable="False" tokenized="False" updatetrigger="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="a78bc4f9-916f-4ddb-9857-90d3530438ef" name="ProductID" searchable="True" tokenized="False" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>

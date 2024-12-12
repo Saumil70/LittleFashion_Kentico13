@@ -52,14 +52,16 @@
   <ClassIsNavigationItem>True</ClassIsNavigationItem>
   <ClassName>LittleFashion_Kentico13.ContactForm</ClassName>
   <ClassNodeNameSource />
+  <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="17ba8738-09a6-49d6-85d9-e52c6f664e98" name="FormTitle" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="3076b6aa-80cb-444b-9cb2-c69fa69fbc5a" name="Button" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="a82ddc7c-b7d2-4ebc-9c5a-2e9977ccc3db" name="ContactFormID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="17ba8738-09a6-49d6-85d9-e52c6f664e98" name="FormTitle" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="3076b6aa-80cb-444b-9cb2-c69fa69fbc5a" name="Button" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="a82ddc7c-b7d2-4ebc-9c5a-2e9977ccc3db" name="ContactFormID" searchable="True" tokenized="False" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>

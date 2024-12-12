@@ -65,15 +65,17 @@
   <ClassIsNavigationItem>True</ClassIsNavigationItem>
   <ClassName>LittleFashion_Kentico13.Footer</ClassName>
   <ClassNodeNameSource />
+  <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="8438dbbe-c172-4e94-b99b-3141c64ffb63" name="FooterID" searchable="True" tokenized="False" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="ba75762e-da9a-4bd9-b869-744b7ae3d92e" name="SitemapText" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="c5d7d700-112d-43ed-819b-00ce2dd28324" name="CopyRightText" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="cc72ec3b-8953-4058-b555-a40f374e5562" name="SocialText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="8438dbbe-c172-4e94-b99b-3141c64ffb63" name="FooterID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="ba75762e-da9a-4bd9-b869-744b7ae3d92e" name="SitemapText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="c5d7d700-112d-43ed-819b-00ce2dd28324" name="CopyRightText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="cc72ec3b-8953-4058-b555-a40f374e5562" name="SocialText" searchable="False" tokenized="True" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>

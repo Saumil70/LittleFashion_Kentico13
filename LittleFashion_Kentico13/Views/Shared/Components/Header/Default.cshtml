@@ -30,8 +30,15 @@
         </div>
     </div>
 
+    <div class="d-flex align-items-center" style="margin-right:35px">
+        @using (Html.BeginForm("SearchIndex", "Search", FormMethod.Get, new { @class = "d-flex" }))
+        {
+            <input type="text" name="searchtext" class="form-control form-control-sm me-2" placeholder="Search..." maxlength="1000">
+            <button type="submit" class="btn bg-dark text-white btn-sm">@ResHelper.GetString("Search")</button>
+        }
+    </div>
 
-    <div class="dropdown-content">
+    <div class="dropdown-content" style="margin-right:9px">
         @if (User.Identity.IsAuthenticated)
         {
             <div class="d-flex gap-2">
@@ -50,9 +57,5 @@
             </div>
         }
     </div>
-    @using (Html.BeginForm("SearchIndex", "Search", FormMethod.Get))
-    {
-        <input type="text" name="searchtext" placeholder="Search..." maxlength="1000">
-        <input type="submit" value="Search">
-    }
+
 </nav>

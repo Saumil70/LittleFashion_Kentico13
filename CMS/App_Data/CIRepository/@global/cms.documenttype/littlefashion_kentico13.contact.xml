@@ -39,13 +39,15 @@
   <ClassIsNavigationItem>True</ClassIsNavigationItem>
   <ClassName>LittleFashion_Kentico13.Contact</ClassName>
   <ClassNodeNameSource />
+  <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
   <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="25536263-4190-43b8-885a-ce70ea7d7a83" name="ContactID" searchable="True" tokenized="False" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="c07b4d34-af31-4f25-824e-77b4ed32d658" name="Title" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="25536263-4190-43b8-885a-ce70ea7d7a83" name="ContactID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="c07b4d34-af31-4f25-824e-77b4ed32d658" name="Title" searchable="False" tokenized="True" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>

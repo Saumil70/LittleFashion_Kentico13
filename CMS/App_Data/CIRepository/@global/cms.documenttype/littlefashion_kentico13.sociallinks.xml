@@ -52,14 +52,16 @@
   <ClassIsNavigationItem>True</ClassIsNavigationItem>
   <ClassName>LittleFashion_Kentico13.SocialLinks</ClassName>
   <ClassNodeNameSource />
+  <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
   <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="3296408e-9e64-435f-813a-7e63e5e82856" name="SocialLinkText" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="580cef70-73b1-4118-baba-6b2671d19456" name="SocialLink" searchable="False" tokenized="True" updatetrigger="True" />
-      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="b1de8372-c6e0-40e3-aa24-246fad430e0f" name="SocialLinksID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="3296408e-9e64-435f-813a-7e63e5e82856" name="SocialLinkText" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="580cef70-73b1-4118-baba-6b2671d19456" name="SocialLink" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="b1de8372-c6e0-40e3-aa24-246fad430e0f" name="SocialLinksID" searchable="True" tokenized="False" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
