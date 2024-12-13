@@ -31,14 +31,6 @@ namespace LittleFashion_Kentico13.Controllers
 
         public async Task<IActionResult> Index()
         {
-            // Retrieve the current page context as a CarouselItem
-            var page = dataRetriever.Retrieve<Inventory>()?.Page;
-            if (page == null)
-            {
-                return NotFound();
-            }
-
-            // Fetch carousel sliders based on the current page's node alias path
             InventoryViewModel model = await inventoryRepository.GetInventory();
             IEnumerable<InventoryItemViewModel> newArrivals = await inventoryRepository.GetNewArrivals();
             IEnumerable<InventoryItemViewModel> popular = await inventoryRepository.GetPopular();
