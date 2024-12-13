@@ -6,6 +6,7 @@ using LittleFashion_Kentico13.Repository.Home;
 using LittleFashion_Kentico13.Repository.Inventory;
 using LittleFashion_Kentico13.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 [assembly: RegisterPageRoute(Inventory.CLASS_NAME, typeof(InventoryPageController))]
@@ -38,42 +39,13 @@ namespace LittleFashion_Kentico13.Controllers
             }
 
             // Fetch carousel sliders based on the current page's node alias path
-            var newArrivals = await inventoryRepository.GetNewArrivals(page.NodeAliasPath);
-            var popular = await inventoryRepository.GetPopular(page.NodeAliasPath);
+            InventoryViewModel model = await inventoryRepository.GetInventory();
+            IEnumerable<InventoryItemViewModel> newArrivals = await inventoryRepository.GetNewArrivals();
+            IEnumerable<InventoryItemViewModel> popular = await inventoryRepository.GetPopular();
 
-            // Prepare the ViewModel
-            var model = new InventoryViewModel();
+            model.NewArrivals = newArrivals;
+            model.Popular = popular;
 
-            model.FirstTitle = page.FirstTitle;
-            model.SecondTitle = page.SecondTitle;
-
-            foreach (var newArrivalItem in newArrivals)
-            {
-                InventoryItemViewModel inventoryItemViewModel = new InventoryItemViewModel()
-                {
-                    ProductName = newArrivalItem.ProductName,
-                    ProductDescription = newArrivalItem.ProductDescription,
-                    ProductPrice = newArrivalItem.ProductPrice,
-                    ProductUrl = newArrivalItem.ProductUrl,
-                    ProductStatus = newArrivalItem.ProductStatus,
-                    ImageUrl = newArrivalItem.ImageUrl,
-                };
-                model.NewArrivals.Add(inventoryItemViewModel);
-            }
-
-            foreach (var popularItem in popular)
-            {
-                InventoryItemViewModel popularItemViewModel = new InventoryItemViewModel()
-                {
-                    ProductName = popularItem.ProductName,
-                    ProductDescription = popularItem.ProductDescription,
-                    ProductPrice = popularItem.ProductPrice,
-                    ProductUrl = popularItem.ProductUrl,
-                    ProductStatus = popularItem.ProductStatus,
-                    ImageUrl = popularItem.ImageUrl,
-                };
-                model.Popular.Add(popularItemViewModel);
-            }
             return View(model);
         }
     }

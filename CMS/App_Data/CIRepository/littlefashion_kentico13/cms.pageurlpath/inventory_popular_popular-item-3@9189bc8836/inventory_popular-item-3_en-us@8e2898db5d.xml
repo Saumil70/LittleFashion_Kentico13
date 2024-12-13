@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>ff66b3cd-4f15-43d7-9ad2-5bf251d5f1b5</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Inventory/Popular/Popular-Item-3</CodeName>
+    <GUID>c5544efb-e28c-4bfa-82ec-818879a841c8</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>LittleFashion_Kentico13</CodeName>
+    <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Inventory/Popular-Item-3</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[2B0255E2373E4413744CA62F46BF8140C74A864BEC565E9B22DB4C02D1FEC50B]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

@@ -55,14 +55,14 @@
   <ClassNodeNameSource />
   <ClassSearchContentColumn />
   <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
-  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
   <ClassSearchImageColumn />
-  <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
+  <ClassSearchIndexDataSource>1</ClassSearchIndexDataSource>
   <ClassSearchSettings>
     <search>
-      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="1f8093d4-5c4b-4a18-9371-17bfb297a6b8" name="ProductListingID" searchable="True" tokenized="False" updatetrigger="True" />
-      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="4d82daba-1fc1-49c5-ad14-fd7a0125bc64" name="FirstTitle" searchable="False" tokenized="False" updatetrigger="False" />
-      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="7412195c-2445-4a77-84a9-d044cd099515" name="SecondTitle" searchable="False" tokenized="False" updatetrigger="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="1f8093d4-5c4b-4a18-9371-17bfb297a6b8" name="ProductListingID" searchable="False" tokenized="False" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="4d82daba-1fc1-49c5-ad14-fd7a0125bc64" name="FirstTitle" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="True" id="7412195c-2445-4a77-84a9-d044cd099515" name="SecondTitle" searchable="False" tokenized="True" updatetrigger="True" />
     </search>
   </ClassSearchSettings>
   <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>

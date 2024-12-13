@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Popular Item 3 -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2024-12-12 10:15:28Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>19b46541-a386-402e-b02d-22a8ed112cac</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2024-12-13 10:02:20Z</DocumentModifiedWhen>
+  <DocumentName>Popular Item 3</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Inventory/Popular/Popular-Item-3</CodeName>
+    <GUID>c5544efb-e28c-4bfa-82ec-818879a841c8</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>LittleFashion_Kentico13</CodeName>
+      <GUID>8abdfae1-d106-4e33-ab2a-d090ed0ee763</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentSearchExcluded>False</DocumentSearchExcluded>
+  <DocumentShowInMenu>True</DocumentShowInMenu>
+</cms.documentlocalization>

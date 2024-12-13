@@ -9,7 +9,7 @@
 {
     if (!String.IsNullOrWhiteSpace(Model.Query))
     {
-        <h3>No results found for "@Model.Query"</h3>
+        <h2>No results found for "@Model.Query"</h2>
     }
 }
 else
@@ -36,40 +36,59 @@ else
     }
 
     <div style="margin-top:100px">
-        <h3>Results for "@Model.Query"</h3>
-        <section class="products section-padding">
+        <h2 style="margin-left:104px; margin-top:132px" >Results for "@Model.Query"</h2>
+        <section class="products section-padding" style="margin-top:-50px">
             <div class="container">
                 <div class="row">
                     @foreach (var item in dictionaryList)
                     {
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="@item["ImageUrl"]" class="img-fluid product-image" alt="">
-                                </a>
+                        if (item.TryGetValue("ProductName", out var productName) && !string.IsNullOrEmpty(productName?.ToString()))
+                        {
+                            <div class="col-lg-4 col-12 mb-3">
+                                <div class="product-thumb">
+                                    <a href="product-detail.html">
+                                        @{
+                                            if (item.TryGetValue("ImageUrl", out var imageUrl) && !string.IsNullOrEmpty(imageUrl?.ToString()))
+                                            {
+                                                <img src="@imageUrl" class="img-fluid product-image" alt="">
+                                            }
+                                        }
+                                    </a>
 
-                                <div class="product-top d-flex">
-                                    @if (!string.IsNullOrEmpty(item["ProductStatus"].ToString()))
-                                    {
-                                        <span class="product-alert me-auto">@item["ProductStatus"]</span>
-                                    }
-
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">@item["ProductName"]</a>
-                                        </h5>
-
-                                        <p class="product-p">@item["ProductDescription"]</p>
+                                    <div class="product-top d-flex">
+                                        @{
+                                            if (item.TryGetValue("ProductStatus", out var productStatus) && !string.IsNullOrEmpty(productStatus?.ToString()))
+                                            {
+                                                <span class="product-alert me-auto">@productStatus</span>
+                                            }
+                                        }
+                                        <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
                                     </div>
 
-                                    <small class="product-price text-muted ms-auto">@item["ProductPrice"]</small>
+                                    <div class="product-info d-flex">
+                                        <div>
+                                            @{
+                                                <h5 class="product-title mb-0">
+                                                    <a href="product-detail.html" class="product-title-link">@productName</a>
+                                                </h5>
+
+                                                if (item.TryGetValue("ProductDescription", out var productDescription) && !string.IsNullOrEmpty(productDescription?.ToString()))
+                                                {
+                                                    <p class="product-p">@productDescription</p>
+                                                }
+                                            }
+                                        </div>
+                                        @{
+                                            if (item.TryGetValue("ProductPrice", out var productPrice) && !string.IsNullOrEmpty(productPrice?.ToString()))
+                                            {
+                                                <small class="product-price text-muted ms-auto">@productPrice</small>
+                                            }
+                                        }
+
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        }
                     }
                 </div>
             </div>

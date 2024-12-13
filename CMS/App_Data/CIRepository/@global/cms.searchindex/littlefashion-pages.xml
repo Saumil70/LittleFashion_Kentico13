@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.searchindex>
-  <IndexAnalyzerType>simple</IndexAnalyzerType>
+  <IndexAnalyzerType>standard</IndexAnalyzerType>
   <IndexCustomAnalyzerClassName />
   <IndexDisplayName>LittleFashion-Pages</IndexDisplayName>
   <IndexGUID>1c4a542f-4b7c-4471-8085-c09d428460be</IndexGUID>

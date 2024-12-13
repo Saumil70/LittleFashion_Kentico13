@@ -20,6 +20,7 @@ using System.Threading.Tasks;
 using LittleFashion_Kentico13;
 using Microsoft.AspNetCore.Localization.Routing;
 using LittleFashion_Kentico13.Repository.Inventory;
+using LittleFashion_Kentico13.Repository.Search;
 
 namespace BlankSiteCore
 {
@@ -74,6 +75,7 @@ namespace BlankSiteCore
             services.AddControllersWithViews();
             services.AddScoped<HomeRepository>();
             services.AddScoped<InventoryRepository>();
+            services.AddScoped<SearchRepository>();
 
             services.AddLocalization()
                     .AddControllersWithViews()
