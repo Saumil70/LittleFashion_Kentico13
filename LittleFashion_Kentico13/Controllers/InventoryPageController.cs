@@ -40,5 +40,34 @@ namespace LittleFashion_Kentico13.Controllers
 
             return View(model);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> FilterProducts(List<string> categories)
+        {
+            var model = new InventoryViewModel();
+
+            // Example filtering logic
+            if (categories != null && categories.Count > 0)
+            {
+                if (categories.Contains("NewArrivals"))
+                {
+                    model.NewArrivals = await inventoryRepository.GetNewArrivals();
+                }
+
+                if (categories.Contains("Popular"))
+                {
+                    model.Popular = await inventoryRepository.GetPopular();
+                }
+            }
+            else
+            {
+                // If no filters are selected, retrieve default data
+                model.NewArrivals = await inventoryRepository.GetNewArrivals();
+                model.Popular = await inventoryRepository.GetPopular();
+            }
+
+            return PartialView("_ProductListings", model);
+        }
+
     }
 }

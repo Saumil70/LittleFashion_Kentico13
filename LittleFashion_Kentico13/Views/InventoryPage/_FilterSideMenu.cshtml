@@ -1,0 +1,13 @@
+﻿<div class="filter-sidebar">
+    <h5>Filter by Category</h5>
+    <form id="filterForm" onsubmit="return false;">
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newArrivalsCheckbox" name="categories" value="NewArrivals" onchange="filterProducts()">
+            <label class="form-check-label" for="newArrivalsCheckbox">New Arrivals</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="popularCheckbox" name="categories" value="Popular" onchange="filterProducts()">
+            <label class="form-check-label" for="popularCheckbox">Popular</label>
+        </div>
+    </form>
+</div>

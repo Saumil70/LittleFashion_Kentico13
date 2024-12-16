@@ -1,0 +1,94 @@
+﻿@using LittleFashion_Kentico13.ViewModel
+@model InventoryViewModel
+
+
+<div class="row">
+    <!-- First Title -->
+    @if (Model.FirstTitle != null)
+    {
+        <div class="col-12">
+            <h2 class="mb-5">@Model.FirstTitle</h2>
+        </div>
+    }
+
+    @if (Model.NewArrivals != null)
+    {
+        @foreach (var newArrivalItem in Model.NewArrivals)
+        {
+            @if (newArrivalItem.ProductName != null)
+            {
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="@newArrivalItem.ImageUrl" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            @if (!string.IsNullOrEmpty(newArrivalItem.ProductStatus))
+                            {
+                                <span class="product-alert me-auto">@newArrivalItem.ProductStatus</span>
+                            }
+                            <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">@newArrivalItem.ProductName</a>
+                                </h5>
+                                <p class="product-p">@newArrivalItem.ProductDescription</p>
+                            </div>
+                            <small class="product-price text-muted ms-auto">@newArrivalItem.ProductPrice</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+    }
+</div>
+
+<div class="row">
+    <!-- Second Title -->
+    @if (Model.SecondTitle != null)
+    {
+        <div class="col-12">
+            <h2 class="mb-5">@Model.SecondTitle</h2>
+        </div>
+    }
+
+    @if (Model.Popular != null)
+    {
+        @foreach (var popularItem in Model.Popular)
+        {
+            @if (popularItem.ProductName != null)
+            {
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <div class="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="@popularItem.ImageUrl" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            @if (!string.IsNullOrEmpty(popularItem.ProductStatus))
+                            {
+                                <span class="product-alert me-auto">@popularItem.ProductStatus</span>
+                            }
+                            <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                    <a href="product-detail.html" class="product-title-link">@popularItem.ProductName</a>
+                                </h5>
+                                <p class="product-p">@popularItem.ProductDescription</p>
+                            </div>
+                            <small class="product-price text-muted ms-auto">@popularItem.ProductPrice</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    }
+</div>
