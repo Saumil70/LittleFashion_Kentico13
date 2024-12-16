@@ -42,11 +42,10 @@ namespace LittleFashion_Kentico13.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> FilterProducts(List<string> categories)
+        public async Task<IActionResult> FilterByCategory(List<string> categories)
         {
-            var model = new InventoryViewModel();
+            InventoryViewModel model = await inventoryRepository.GetInventory();
 
-            // Example filtering logic
             if (categories != null && categories.Count > 0)
             {
                 if (categories.Contains("NewArrivals"))

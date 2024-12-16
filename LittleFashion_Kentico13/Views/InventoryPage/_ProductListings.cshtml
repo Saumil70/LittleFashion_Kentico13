@@ -4,7 +4,7 @@
 
 <div class="row">
     <!-- First Title -->
-    @if (Model.FirstTitle != null)
+    @if (!string.IsNullOrEmpty(Model.FirstTitle) && Model.NewArrivals?.Any() == true)
     {
         <div class="col-12">
             <h2 class="mb-5">@Model.FirstTitle</h2>
@@ -50,7 +50,7 @@
 
 <div class="row">
     <!-- Second Title -->
-    @if (Model.SecondTitle != null)
+    @if (!string.IsNullOrEmpty(Model.SecondTitle) && Model.Popular?.Any() == true)
     {
         <div class="col-12">
             <h2 class="mb-5">@Model.SecondTitle</h2>

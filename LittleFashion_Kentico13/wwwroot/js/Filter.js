@@ -8,7 +8,7 @@
 
     // Perform the AJAX request to filter products and get the updated Index view
     $.ajax({
-        url: '/InventoryPage/FilterProducts',
+        url: '/InventoryPage/FilterByCategory',
         type: 'POST',
         data: { categories: selectedCategories },
         success: function (result) {
