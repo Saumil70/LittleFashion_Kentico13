@@ -98,7 +98,5 @@ namespace LittleFashion_Kentico13.Controllers
 
             return PartialView("_ProductListings", model);
         }
-
-
     }
 }
