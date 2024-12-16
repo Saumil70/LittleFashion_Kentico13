@@ -1,4 +1,4 @@
-﻿function filterProducts() {
+﻿function filterProductByCategory() {
     var selectedCategories = [];
 
     // Collect all selected checkboxes
@@ -20,3 +20,21 @@
         }
     });
 }
+
+
+function filterByPrice(values) {
+
+    $.ajax({
+        url: '/InventoryPage/FilterByPrice',
+        type: 'POST',
+        data: { pricerange: values },
+        success: function (result) {
+            $('#product-listings').html(result);
+            console.log("Successfully filtered the products");
+        },
+        error: function () {
+            console.log("An error occurred while filtering the products.");
+        }
+    });
+}
+

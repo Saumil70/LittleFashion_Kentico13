@@ -1,0 +1,13 @@
+﻿.slider-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.noUi-horizontal .noUi-tooltip {
+    bottom: -162% !important;
+}
+
+.slider-container {
+    margin-top: 10px;
+    margin-left: 0px;
+}
